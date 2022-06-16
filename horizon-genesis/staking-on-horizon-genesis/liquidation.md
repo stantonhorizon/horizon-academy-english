@@ -2,7 +2,7 @@
 
 Liquidation is a critical function to the health of the collateralization of synthetic assets on Horizon Protocol. Liquidation ensures that there will still be sufficient collateral to back synthetic assets in the event of a serious price drop (-90%) in HZN. It creates an incentive for stakers to maintain a healthy C-Ratio as well an incentive for liquidators to liquidate these accounts for a profit. This 2-sided approach ensures that the global network C-Ratio is maintained at a healthy level.
 
-Once a user is flagged for liquidation and they don't restore their C-ratio and clear the flag, they will appear on a list of accounts available to be liquidated (will be viewable on the [network stats page](https://dashboard.horizonprotocol.com/) soon along with the amount of zUSD needed to cover their position back to an 800% C-Ratio). From here, a liquidator with sufficient zUSD can liquidate these accounts and claim back HZN with a 10% bonus.&#x20;
+Once a user is flagged for liquidation and they don't restore their C-ratio and clear the flag, they will appear on a list of accounts available to be liquidated (will be viewable on the [network stats page](https://dashboard.horizonprotocol.com/) soon along with the amount of zUSD needed to cover their position back to an 700% C-Ratio). From here, a liquidator with sufficient zUSD can liquidate these accounts and claim back HZN with a 10% bonus.&#x20;
 
 ## Sample Liquidation Scenario
 
@@ -10,13 +10,14 @@ Let's take an example:
 
 Consider the following conditions:
 
-* Target C-Ratio: 800%
-* Liquidation C-ratio: 200%
+* Target C-Ratio: 700%
+* Liquidation C-ratio: 200% (flag activates at 200% exactly)
 * Liquidation penalty: 10%
 * Liquidation delay: 3 days
 * HZN (starting) value: $1 USD
 
-For example:
+For example:\
+_\*Please note that the example below was written when the Target C-Ratio was still 800%._
 
 1. John has 400 HZN staked. At HZN value of $1 USD, this is worth $400 USD. When he initially minted at a C-Ratio of 800%, he received $50 zUSD. Because he has not been actively checking due to a price drop of HZN to $0.25 USD, the total value of staked HZN is now $100 USD, his C-Ratio has gone from 800% to 200%, which means he currently has a C-Ratio of 200% while still holding $50 zUSD of debt minted. 200% is the Liquidation C-ratio, which means, John's liquidation flag has been activated.
 2. If John fails to restore his C-Ratio back to 800% within 3 days, his account becomes available to be liquidated. To get back to 800%, without investing more HZN, John needs to lower his debt to $12.5 zUSD, which means $37.5 zUSD needs to be burned by John.
@@ -51,9 +52,11 @@ To summarize further, the liquidator, Adam, basically makes a free 10% profit wh
 
 ## Clearing the Liquidation Flag
 
-If the user restores their C-Ratio back to 800% within the 3-day grace period, the user may then clear their liquidation flag.&#x20;
+If the user restores their C-Ratio back to 700% within the 3-day grace period, the user may then clear their liquidation flag.&#x20;
 
-**It is very, very important to note that this is a manual function** that requires the user to update the smart contract that they are no longer flagged, otherwise other users will still have the ability to liquidate this user after the 3-day grace period anytime the C-Ratio are below 800%. This smart contract update requires a transaction on the blockchain and the user will need to pay the gas fee.&#x20;
+**It is very, very important to note that this is a manual function** that requires the user to update the smart contract that they are no longer flagged, otherwise other users will still have the ability to liquidate this user after the 3-day grace period anytime the C-Ratio are below 700%. This smart contract update requires a transaction on the blockchain and the user will need to pay the gas fee.&#x20;
+
+This manual action can only be done at 700% C-ratio or above. It does not enjoy the 1% buffer that is available to Claims.
 
 The Horizon Genesis UI will indicate to the user in regards to this status and instruct the user on how to clear the liquidation flag.
 

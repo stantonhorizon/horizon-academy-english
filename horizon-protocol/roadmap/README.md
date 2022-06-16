@@ -1,10 +1,10 @@
 ---
-description: Latest update - April 1, 2022
+description: Latest update - June 15, 2022
 ---
 
 # Roadmap
 
-![Horizon Protocol Roadmap Update - April 1, 2022](../../.gitbook/assets/horizon\_protocol\_roadmap\_220401.png)
+![Horizon Protocol Roadmap Update - June 15, 2022](<../../.gitbook/assets/roadmap update 1.1.png>)
 
 ## Ongoing
 
@@ -15,21 +15,17 @@ These are items that essentially never end. zAssets will keep getting added on H
 
 ## Coming Up in Q2 2022
 
-* Horizon Exchange — Mainnet
-* Horizon Genesis 2.0 — Testnet / Mainnet
+* Horizon Exchange **\[COMPLETED and LIVE]**
+* Horizon Genesis 2.0 **\[COMPLETED and LIVE]**
 * Horizon Dashboard 1.5 — Testnet / Mainnet
-* Horizon Academy Beta
+* Horizon Academy Beta **\[COMPLETED and LIVE]**
 * Chainlink Keeper integration
 
 Besides the ongoing tasks, these are the items that we’re currently focused on getting delivered in Q2. Below we will briefly explain each item.
 
-## Horizon Exchange
-
-Needless to say, this has our highest priority. It’s been long-awaited, the community has been eager to see it in action, with testnet we offered you some hands-on experience, and your feedback showed us how highly the community thinks of it.
-
 ## Horizon Genesis v2.0
 
-We will be providing needed updates to Horizon Genesis and will be launching a brand new version that includes improved UX and new features such as debt tracking analytics, escrow rewards tracking and many more. Stay tuned for a future update about Horizon Genesis 2.0.
+We will be providing needed updates to Horizon Genesis and will be launching a brand new version that includes improved UX and new features such as debt tracking analytics, escrow rewards tracking, and many more. Stay tuned for a future update about Horizon Genesis 2.0.
 
 ## Horizon Dashboard v1.5
 
