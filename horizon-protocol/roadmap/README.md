@@ -4,16 +4,17 @@ description: Latest update - June 15, 2022
 
 # Roadmap
 
-![Horizon Protocol Roadmap Update - June 15, 2022](<../../.gitbook/assets/roadmap update 1.1.png>)
+![Horizon Protocol Roadmap Update - July 6, 2022](<../../.gitbook/assets/roadmap update 1.2.png>)
 
 ## Ongoing
 
 * UI/UX Upgrades
 * Adding new zAssets
+* Implementation of [HIPs](../community-driven/hips/)
 
 These are items that essentially never end. zAssets will keep getting added on Horizon Exchange. The user-interface and user-experience will continuously improve depending on the feedback we get from our community.
 
-## Coming Up in Q2 2022
+## Coming Up in Q3 2022
 
 * Horizon Exchange **\[COMPLETED and LIVE]**
 * Horizon Genesis 2.0 **\[COMPLETED and LIVE]**
@@ -22,14 +23,6 @@ These are items that essentially never end. zAssets will keep getting added on H
 * Chainlink Keeper integration
 
 Besides the ongoing tasks, these are the items that we’re currently focused on getting delivered in Q2. Below we will briefly explain each item.
-
-## Horizon Genesis v2.0
-
-We will be providing needed updates to Horizon Genesis and will be launching a brand new version that includes improved UX and new features such as debt tracking analytics, escrow rewards tracking, and many more. Stay tuned for a future update about Horizon Genesis 2.0.
-
-## Horizon Dashboard v1.5
-
-We will be introducing new trackable metrics for Horizon Exchange and updates to UI for the same reason as above; provide the necessary data to HZN stakers and traders. We will also be releasing a future update about Horizon Dashboard 1.5.
 
 ## Horizon Academy Beta <a href="#1976" id="1976"></a>
 
@@ -52,12 +45,14 @@ These are items that are planned to be added to Horizon Protocol after we comple
 
 ## Completed
 
-* Horizon Exchange 1.0 Testnet
-* Horizon Genesis 1.0 Mainnet
-* Horizon Genesis 1.0 Testnet
+* Horizon [Dashboard](https://dashboard.horizonprotocol.com) 1.5 (Mainnet)\
+  Improved UI/UX and provide the additional global portfolio data to HZN stakers and traders
+* Horizon [Genesis](https://genesis.horizonprotocol.com) 2.0 (Mainnet)\
+  Improved UI/UX with debt tracking analytics, escrow rewards tracking, and history.
+* Horizon [Exchange](https://exchange.horizonprotocol.com) 1.0 (Mainnet)
 * Horizon Staker + 3 Pools
 * PancakeSwap IFO
-* Horizon Protocol Smart Contract Deployment Mainnet
+* Horizon Protocol Smart Contract Deployment (Mainnet)
 * Litepaper
 
 This shows everything that has been completed thus far. Expect this to become a whole lot more!
