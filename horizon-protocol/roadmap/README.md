@@ -1,5 +1,5 @@
 ---
-description: Latest update - June 15, 2022
+description: Latest update - July 6, 2022
 ---
 
 # Roadmap
