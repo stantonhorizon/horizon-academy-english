@@ -113,7 +113,7 @@ When staking HZN in Horizon Genesis, your HZN will never actually leave your wal
 
 Horizon Protocol has a dynamic staking mechanism that automatically adjusts the amount of HZN staked based on the current price of HZN in order to always maintain an 800% backing of your current debt. Transferable and escrowed HZN are dynamically used to maintain an 800% C-Ratio as the price of HZN fluctuates.
 
-Let’s take an example:
+Let’s take an example: (using a C-Ratio of 800%)
 
 1. You mint 100 zUSD with 800 HZN (1 HZN = $1) at 800% C-Ratio, your staked HZN balance would be 800 and your transferable HZN balance would be 0 (assuming you staked all of your HZN).
 2. The price of HZN goes up to $1.5, now you would only need 533.33 HZN to back your 100 zUSD. Horizon Genesis would automatically release 266.67 HZN from being staked and it would become transferable HZN. This transferable HZN could then be freely used to mint more zUSD, transferred to another wallet, or sold on an exchange.
@@ -127,7 +127,7 @@ Let’s take an example:
 
 Staking HZN means that you are putting the HZN in there as collateral to Mint/Borrow zUSD. The reason it is called Minting instead of Borrowing is because there is no interest in this process. This is also why zUSD is called “Debt”, because you are technically borrowing this zUSD and you need to return it to be able to take back your HZN. An example of this would be a second mortgage, where you use your house as the collateral and you’re able to borrow some money. To get the house back to be fully under your ownership, then you need to pay back all the money first.
 
-C-Ratio stands for collateralization ratio. This is the amount of collateral needed to borrow/mint a certain amount of zUSD. At 800%, you need $800 worth of HZN to mint $100 of zUSD.&#x20;
+C-Ratio stands for collateralization ratio. This is the amount of collateral needed to borrow/mint a certain amount of zUSD. At 800%, you need $800 worth of HZN to mint $100 of zUSD.
 
 If the price of HZN goes up to double the price, then your HZN is now worth $1600, which means that if you haven’t touched anything else, you are now at a c-ratio of 1600%. At this point, you can Mint again, which would take the extra $800 of HZN and borrow/mint to give you another $100 zUSD for a total of $200 zUSD at 800% c-ratio.
 
@@ -185,7 +185,7 @@ Horizon Genesis has preset strategies to help you manage your C-Ratio. Simply cl
 
 If your C-Ratio goes under 200% - you will be automatically flagged for liquidation. Horizon Genesis has a 3-day grace period to allow you to restore your C-Ratio and clear your liquidation flag before your account becomes available for liquidation. You will need to restore your C-Ratio back to 800% before you're able to clear your liquidation flag.
 
-#### WARNING:
+**WARNING:**
 
 Please note that clearing your liquidation flag requires a blockchain transaction and is NOT automatic.
 
