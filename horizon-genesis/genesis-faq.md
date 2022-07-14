@@ -214,8 +214,6 @@ There are 2 reasons this can occur:
 
 ## Rewards
 
-**How are my rewards calculated for staking HZN in Horizon Genesis?**
-
 <details>
 
 <summary><strong>How are my rewards calculated for staking HZN in Horizon Genesis?</strong></summary>
