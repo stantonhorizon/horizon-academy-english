@@ -43,4 +43,4 @@ If your C-Ratio falls below 200% you will be flagged for liquidation. Once you a
 
 Please check the [strategy](c-ratio-strategies.md) section for more details on how to approach staking HZN and the best approach that fits you.
 
-![It is](../../.gitbook/assets/hzn-docs-liquidation1.png)
+![](../../.gitbook/assets/hzn-docs-liquidation1.png)
