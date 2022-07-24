@@ -28,9 +28,9 @@ Learn more about Horizon Protocol by going to the [Horizon Protocol website](htt
 
 Horizon Protocol is a decentralized finance project on the Binance Smart Chain with the mission of creating a borderless financial market for synthetic assets.
 
-The Horizon Protocol Ecosystem consists of two main parts:&#x20;
+The Horizon Protocol Ecosystem consists of two main parts:
 
-* [Horizon Genesis](../../horizon-genesis/introduction.md), for creating synthetic assets, and&#x20;
+* [Horizon Genesis](../../horizon-genesis/introduction.md), for creating synthetic assets, and
 * [Horizon Exchange](../../horizon-exchange/introduction.md), for trading synthetic assets.
 
 ## Security Audit
@@ -45,12 +45,8 @@ Original Medium post available [here](https://horizonprotocol.medium.com/horizon
 
 ## Getting Started
 
-To get started with Horizon Protocol, you can do two things: “Earn” and “Trade”.&#x20;
+To get started with Horizon Protocol, you can do two things: “Earn” and “Trade”.
 
-**Earn**, by staking and providing collateral to the protocol on Horizon Genesis, a dApp for staking, which will earn you a dividend.&#x20;
+**Earn**, by staking and providing collateral to the protocol on Horizon Genesis, a dApp for staking, which will earn you a dividend.
 
 Or **Trade**, where you engage in synthetic assets trading on the Horizon Exchange, including long and short positions.
-
-#### &#x20;<a href="#resources" id="resources"></a>
-
-\
