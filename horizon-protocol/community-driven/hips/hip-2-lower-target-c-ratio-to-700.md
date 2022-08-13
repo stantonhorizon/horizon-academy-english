@@ -6,7 +6,7 @@ description: Lower Target C-Ratio to 700% from 800%
 
 **Type:** Horizon Improvement Proposal\
 **Date:** May 12th, 2022\
-**Status:** Draft 2
+**Status:** Draft 2 | Completed
 
 ![](../../../.gitbook/assets/Hip2.png)
 
