@@ -6,7 +6,7 @@ When a user stakes HZN to mint on Horizon Genesis, the stake is pooled with all 
 
 Anyone that holds HZN tokens can stake on the network, with no minimum requirements. However, you must also have BNB tokens to pay for network gas.
 
-To get started staking, go to [Getting Started](../getting-started/).
+To get started staking, go to [Getting Started](../guides/getting-started.md).
 
 ## Staking and Rewards
 
@@ -19,4 +19,4 @@ Staking rewards are distributed per system rules (these can change as the system
 There are two components to rewards: HZN and zUSD.
 
 * HZN rewards are determined by the [Horizon Protocol inflation policy](https://horizonprotocol.medium.com/horizon-supply-and-inflation-policy-f0aaa8cc4a3a). This started with the launch of Horizon Genesis and supplies all the rewards for Horizon Genesis as well as the LP staking pool rewards in **Earn**. As of April 2022, 86.88% of the rewards are going to HZN stakers who mint zUSD in Horizon Genesis. As a HZN staker, your percentage of the global debt will determine your percentage of rewards each week. If you hold 1% of the global debt, you will receive 1% of all the rewards. Rewards and your percentage of the global debt are calculated at a snapshot of the network taken every Friday around 05:00 UTC.
-* zUSD transaction fee rewards are also accrued by HZN stakers when the Horizon Exchange goes live. Each transaction on the Horizon Exchange will incur a fee (0.15-0.3%) and the sum of all the fees are distributed to HZN stakers each week proportionally to each individual stakers percentage of the global debt (same as HZN rewards).\
+* zUSD transaction fee rewards are also accrued by HZN stakers when the Horizon Exchange goes live. Each transaction on the Horizon Exchange will incur a fee (0.15-0.3%) and the sum of all the fees are distributed to HZN stakers each week proportionally to each individual stakers percentage of the global debt (same as HZN rewards).\\

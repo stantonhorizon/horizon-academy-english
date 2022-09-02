@@ -1,8 +1,16 @@
-# Getting Started
+---
+description: Instructions on how to stake on Horizon Genesis
+---
 
-Below are instructions on how to get started staking on Horizon Genesis.
+# How to Stake on Genesis
+
+Welcome to an introduction on "How to Stake on Horizon Genesis".
+
+{% embed url="https://youtu.be/9putdPMlhts" %}
 
 ## 1. Set Up Wallet
+
+{% embed url="https://youtu.be/HwOg0MJWYKA" %}
 
 To start, the user will need a wallet. Horizon Genesis operates on the BSC (Binance Smart Chain), so the wallet for the HZN token must be BSC compatible. Horizon Genesis supports the following wallets:
 
@@ -13,6 +21,8 @@ To start, the user will need a wallet. Horizon Genesis operates on the BSC (Bina
 _Note that Hardware wallets (Ledger, Trezor) are not supported natively by Horizon Protocol, however, are available through MetaMask and the Binance Chain Wallet browser extension._
 
 ## 2. Acquire Tokens
+
+{% embed url="https://youtu.be/8cKQLGKy8I4" %}
 
 You will need to acquire two types of tokens to be able to stake:
 
@@ -33,11 +43,11 @@ You can buy HZN via the following exchanges:
 * [MXC Margin/Leverage Exchange (5x)](https://www.mexc.com/margin/HZN\_USDT)
 * [Hoo Spot Exchange](https://hoo.com/innovation/hzn-usdt)
 
-## 3. Access Horizon Genesis
+## 3. Earn Rewards by Staking and Minting
+
+{% embed url="https://youtu.be/QFeQkw5bTZI" %}
 
 Visit the [Horizon Genesis Website](https://genesis.horizonprotocol.com/) and connect your wallet by clicking on the top right corner and selecting your preferred wallet.
-
-## 4. Begin Staking by Minting
 
 After connecting your wallet, you are ready to stake. Minting means you will be staking your HZN to create zUSD.
 
@@ -52,11 +62,8 @@ To begin minting, you can either:
 * **Select Amount of zUSD to Mint**\
   The user can type in exactly how much zUSD they want to mint.
 
-## 5. Collect Rewards <a href="#_5-collect-rewards" id="_5-collect-rewards"></a>
+## 4. Collect Rewards <a href="#_5-collect-rewards" id="_5-collect-rewards"></a>
+
+{% embed url="https://youtu.be/hvXP52aVbKc" %}
 
 Once a week, on Fridays, rewards will be available to be collected. Go to the Claim tab and click [Claim](https://docs.horizonprotocol.com/#claim). A notification will display on the Claim tab if you have rewards available to claim. The reward can only be collected if the user's C-Ratio is 800% or more. If it's less, the user will need to go to the Burn tab to burn some zUSD or add some more HZN to your wallet. There is a few percent buffer under 800% where you can still claim your rewards.
-
-\
-
-
-\

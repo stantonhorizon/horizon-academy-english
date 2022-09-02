@@ -84,7 +84,7 @@ To see real-time network data and analytics for Horizon Protocol, check out the 
 
 To stake HZN you also need to mint zUSD, which is a stablecoin backed by your staked HZN. This zUSD must be paid back in order to reclaim your HZN and is considered as an interest-free debt. Staking HZN requires managing your Collateralization Ratio (C-Ratio) in order to be eligible for rewards and avoid liquidation.
 
-Learn more about staking [here](staking-on-horizon-genesis/). Get started [here](getting-started/).
+Learn more about staking [here](staking-on-horizon-genesis/). Get started [here](guides/getting-started.md).
 
 </details>
 

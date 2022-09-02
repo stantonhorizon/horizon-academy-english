@@ -25,8 +25,11 @@
   * [Risks of Staking](horizon-genesis/staking-on-horizon-genesis/risks-of-staking.md)
   * [C-Ratio Strategies](horizon-genesis/staking-on-horizon-genesis/c-ratio-strategies.md)
   * [Earn: Liquidity Pools](horizon-genesis/staking-on-horizon-genesis/earn-liquidity-pools.md)
-* [Getting Started](horizon-genesis/getting-started/README.md)
-  * [Interfaces](horizon-genesis/getting-started/interfaces.md)
+* [Interfaces](horizon-genesis/interfaces.md)
+* [Guides](horizon-genesis/guides/README.md)
+  * [How to Stake on Genesis](horizon-genesis/guides/getting-started.md)
+  * [Add Liquidity for zUSD-bUSD](horizon-genesis/guides/add-liquidity-for-zusd-busd.md)
+  * [Add Liquidity for zBNB-BNB](horizon-genesis/guides/add-liquidity-for-zbnb-bnb.md)
 * [Genesis FAQ](horizon-genesis/genesis-faq.md)
 
 ## Horizon Exchange
