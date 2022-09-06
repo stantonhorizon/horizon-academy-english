@@ -51,14 +51,14 @@ Visit the [Horizon Genesis Website](https://genesis.horizonprotocol.com/) and co
 
 After connecting your wallet, you are ready to stake. Minting means you will be staking your HZN to create zUSD.
 
-The maximum amount of zUSD you can mint is at a 800% C-Ratio, which means that for every $800 USD worth of HZN, you will be able to mint $100 zUSD.
+The maximum amount of zUSD you can mint is at a 700% C-Ratio, which means that for every $700 USD worth of HZN, you will be able to mint $100 zUSD.
 
 To begin minting, you can either:
 
 * **Select a Preset Strategy**\
-  The user can choose how much they want to Mint by selecting a preset strategy. **Aggressive** will populate the maximum amount of zUSD that is mintable, given the user's HZN holdings. **Neutral** and **Conservative** helps create a bit of a buffer so zUSD does not need to be as frequently burnt or HZN added to maintain the 800% C-Ratio. Learn more about [strategies](https://docs.horizonprotocol.com/#strategies).
+  The user can choose how much they want to Mint by selecting a preset strategy. **Aggressive** will populate the maximum amount of zUSD that is mintable, given the user's HZN holdings. **Neutral** and **Conservative** helps create a bit of a buffer so zUSD does not need to be as frequently burnt or HZN added to maintain the 700% C-Ratio. Learn more about [strategies](https://docs.horizonprotocol.com/#strategies).
 * **Select Amount of HZN to Stake**\
-  The user can type in how much HZN they want to stake or click _Mint Max_, which will collateralize at 800%, the same as using the Aggressive strategy.
+  The user can type in how much HZN they want to stake or click _Mint Max_, which will collateralize at 700%, the same as using the Aggressive strategy.
 * **Select Amount of zUSD to Mint**\
   The user can type in exactly how much zUSD they want to mint.
 
@@ -66,4 +66,4 @@ To begin minting, you can either:
 
 {% embed url="https://youtu.be/hvXP52aVbKc" %}
 
-Once a week, on Fridays, rewards will be available to be collected. Go to the Claim tab and click [Claim](https://docs.horizonprotocol.com/#claim). A notification will display on the Claim tab if you have rewards available to claim. The reward can only be collected if the user's C-Ratio is 800% or more. If it's less, the user will need to go to the Burn tab to burn some zUSD or add some more HZN to your wallet. There is a few percent buffer under 800% where you can still claim your rewards.
+Once a week, on Fridays, rewards will be available to be collected. Go to the Claim tab and click [Claim](https://docs.horizonprotocol.com/#claim). A notification will display on the Claim tab if you have rewards available to claim. The reward can only be collected if the user's C-Ratio is 700% or more. If it's less, the user will need to go to the Burn tab to burn some zUSD or add some more HZN to your wallet. There is a few percent buffer under 700% where you can still claim your rewards.
