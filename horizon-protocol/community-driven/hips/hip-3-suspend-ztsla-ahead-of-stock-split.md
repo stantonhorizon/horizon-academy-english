@@ -6,7 +6,7 @@ description: Suspend zTSLA ahead of their stock split on August 25th, 2022
 
 **Type:** Horizon Improvement Proposal\
 **Date:** August 13th, 2022\
-**Status:** Draft 1
+**Status:** Draft 1 | Completed
 
 ![](../../../.gitbook/assets/Hip3.png)
 
