@@ -2,7 +2,9 @@
 description: on PancakeSwap.
 ---
 
-# Add Liquidity for zUSD-bUSD
+# Add Liquidity for zUSD-BUSD
+
+Adding liquidity to zUSD-BUSD supports the zUSD-BUSD liquidity on PancakeSwap, allowing users to trade between zUSD and BUSD on a DEX (decentralized exchange).
 
 The zUSD-BUSD Liquidity Pool is one of the safest ways to earn yield as there is no impermanent loss as both sides of the pool consist of a stablecoin that should not fluctuate in value. The following is a guide on how to add liquidity in the zUSD-BUSD pool in the Earn tab to earn yield.
 
@@ -11,17 +13,13 @@ The zUSD-BUSD Liquidity Pool is one of the safest ways to earn yield as there is
 1. Make sure that you have a BNB Chain compatible wallet. This will most likely be in the form of MetaMask or Binance Wallet. Refer to [#1.-set-up-wallet](getting-started.md#1.-set-up-wallet "mention") for more information.
 2. You will need to have a bit of BNB in the wallet for the transactions. Expect around 0.001-0.002 BNB per transaction.
 
-
-
 ### Step 1. Approve Contract
 
 <figure><img src="../../.gitbook/assets/zUSD-BUSD_1_horizon_genesis_earn_tab.png" alt=""><figcaption></figcaption></figure>
 
-1. Go to [https://genesis.horizonprotocol.com/earn](https://genesis.horizonprotocol.com/earn)
-2. "Approve Contract" for "STAKE zUSD-BUSD". This will cost a bit of BNB.
-3. Click on Get ZUSD-BUSD LP Tokens
-
-
+1. Go to [https://genesis.horizonprotocol.com/earn](https://genesis.horizonprotocol.com/earn).
+2. "Approve Contract" for "STAKE zUSD-BUSD". This action will cost a bit of BNB.
+3. Click on Get ZUSD-BUSD LP Tokens.
 
 ### Step 2. Get zUSD-BUSD LP Tokens
 
@@ -31,9 +29,9 @@ LP stands for "Liquidity Provider", which is a token that typically represents t
 2. Once in PancakeSwap, if you haven't connected your wallet to PancakeSwap yet, you will need to do that.)
 3. If you already have zUSD and BUSD in your wallet, you can now deposit them to add liquidity by clicking "Add Liquidity". The box will expand and show you more options.
 4. After depositing your zUSD and BUSD, you will now have zUSD-BUSD LP Tokens. These LP tokens will increase in value as it shares the dividends of the trade fees when trading between zUSD and BUSD.
-5. If you do not have both zUSD or BUSD yet, you will need to acquire some.  One option fort acquiring either zUSD or BUSD is going to "Swap" in PancakeSwap. If you cannot find zUSD in "Swap" in PancakeSwap, you can add it by clicking the "gear" icon next to the Swap title.
+5. If you do not have both zUSD or BUSD yet, you will need to acquire some.  One option for acquiring either zUSD or BUSD is going to "Swap" in PancakeSwap. If you cannot find zUSD in "Swap" in PancakeSwap, you can add it by clicking the "gear" icon next to the Swap title.
 
-<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Add_Liquidity.png" alt=""><figcaption><p>Add Liquidity Page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Add_Liquidity.png" alt=""><figcaption><p>Add Liquidity Page.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Add_Liquidity2.png" alt=""><figcaption><p>Add Liquidity Page Expanded upon clicking "Add Liquidity" button.</p></figcaption></figure>
 

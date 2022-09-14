@@ -29,7 +29,8 @@
 * [Interfaces](horizon-genesis/interfaces.md)
 * [Guides](horizon-genesis/guides/README.md)
   * [How to Stake on Genesis](horizon-genesis/guides/getting-started.md)
-  * [Add Liquidity for zUSD-bUSD](horizon-genesis/guides/add-liquidity-for-zusd-busd.md)
+  * [Add Liquidity for zUSD-BUSD](horizon-genesis/guides/add-liquidity-for-zusd-busd.md)
+  * [Add Liquidity for HZN-BNB](horizon-genesis/guides/add-liquidity-for-hzn-bnb.md)
   * [Add Liquidity for zBNB-BNB](horizon-genesis/guides/add-liquidity-for-zbnb-bnb.md)
 * [Genesis FAQ](horizon-genesis/genesis-faq.md)
 
