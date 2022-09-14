@@ -25,7 +25,7 @@ Note that there is a risk of impermanent loss for the HZN-BNB pool.
 2. "Approve Contract" for "STAKE HZN-BNB". This action will cost a bit of BNB.
 3. Click on Get HZN-BNB LP Tokens.
 
-### Step 2. Get zUSD-BUSD LP Tokens
+### Step 2. Get HZN-BNB LP Tokens
 
 LP stands for "Liquidity Provider", which is a token that typically represents the amount of liquidity that has been put into the pool.
 
@@ -45,10 +45,10 @@ The last and final step for depositing the LP tokens into the Earn tab to earn H
 <figure><img src="../../.gitbook/assets/HZN-BNB_1_horizon_genesis_earn_tab.png" alt=""><figcaption><p>Depositing into the Earn tab.</p></figcaption></figure>
 
 1. In Genesis's Earn tab ([https://genesis.horizonprotocol.com/earn](https://genesis.horizonprotocol.com/earn)), assuming that the contract has already been approved, there should be a \
-   "+" and "-" icon. Click the "+" icon and input how much HZN-BNB LP tokens you want to deposit. The amount of LP tokens available should be visible in the bottom right hand side of the input box.\
+   "+" and "-" icons. Click the "+" icon and input how many HZN-BNB LP tokens you want to deposit. The amount of LP tokens available should be visible on the bottom right-hand side of the input box.\
    \
-   NOTE: there will be a 7 day lock, which means you will not be able to take the LP tokens out within 7 days.
-2. Once you confirm the transaction in your wallet, you have completed all the steps to adding liquidity for the HZN-BNB pool!
+   NOTE: there will be a 7-day lock, which means you will not be able to take the LP tokens out within 7 days.
+2. Once you confirm the transaction in your wallet, you have completed all the steps to adding liquidity to the HZN-BNB pool!
 
 ### Extra: Remove LP Tokens
 

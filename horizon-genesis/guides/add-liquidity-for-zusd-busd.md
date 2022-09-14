@@ -6,7 +6,9 @@ description: on PancakeSwap.
 
 Adding liquidity to zUSD-BUSD supports the zUSD-BUSD liquidity on PancakeSwap, allowing users to trade between zUSD and BUSD on a DEX (decentralized exchange).
 
-The zUSD-BUSD Liquidity Pool is one of the safest ways to earn yield as there is no impermanent loss as both sides of the pool consist of a stablecoin that should not fluctuate in value. The following is a guide on how to add liquidity in the zUSD-BUSD pool in the Earn tab to earn yield.
+The zUSD-BUSD Liquidity Pool is one of the safest ways to earn yield as there is no impermanent loss as both sides of the pool consist of a stablecoin that should not fluctuate in value.&#x20;
+
+The following is a guide on how to add liquidity in the zUSD-BUSD pool in the Earn tab to earn yield.
 
 ### Step 0. Prerequisite
 
@@ -50,9 +52,9 @@ The last and final step for depositing the LP tokens into the Earn tab to earn H
 <figure><img src="../../.gitbook/assets/zUSD-BUSD_1_horizon_genesis_earn_tab.png" alt=""><figcaption><p>Depositing into the Earn tab.</p></figcaption></figure>
 
 1. In Genesis's Earn tab ([https://genesis.horizonprotocol.com/earn](https://genesis.horizonprotocol.com/earn)), assuming that the contract has already been approved, there should be a \
-   "+" and "-" icon. Click the "+" icon and input how much zUSD-BUSD LP tokens you want to deposit. The amount of LP tokens available should be visible in the bottom right hand side of the input box.\
+   "+" and "-" icons. Click the "+" icon and input how many zUSD-BUSD LP tokens you want to deposit. The amount of LP tokens available should be visible on the bottom right-hand side of the input box.\
    \
-   NOTE: there will be a 7 day lock, which means you will not be able to take the LP tokens out within 7 days.
+   NOTE: there will be a 7-day lock, which means you will not be able to take the LP tokens out within 7 days.
 2. Once you confirm the transaction in your wallet, you have completed all the steps to adding liquidity for the zUSD-BUSD pool!
 
 ### Extra: Remove LP Tokens
