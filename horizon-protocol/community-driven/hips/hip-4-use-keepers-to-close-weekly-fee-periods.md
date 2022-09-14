@@ -10,8 +10,6 @@ description: >-
 **Date:** August 30th, 2022\
 **Status:** Draft 1
 
-![](../../../.gitbook/assets/Hip3.png)
-
 ## Summary
 
 Deploy a Keepers Upkeep contract and register a Keeper to automate the weekly fee period close.

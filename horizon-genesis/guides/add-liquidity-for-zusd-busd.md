@@ -15,7 +15,7 @@ The zUSD-BUSD Liquidity Pool is one of the safest ways to earn yield as there is
 
 ### Step 1. Approve Contract
 
-
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_1_horizon_genesis_earn_tab.png" alt=""><figcaption></figcaption></figure>
 
 1. Go to [https://genesis.horizonprotocol.com/earn](https://genesis.horizonprotocol.com/earn)
 2. "Approve Contract" for "STAKE zUSD-BUSD". This will cost a bit of BNB.
@@ -33,9 +33,23 @@ LP stands for "Liquidity Provider", which is a token that typically represents t
 4. After depositing your zUSD and BUSD, you will now have zUSD-BUSD LP Tokens. These LP tokens will increase in value as it shares the dividends of the trade fees when trading between zUSD and BUSD.
 5. If you do not have both zUSD or BUSD yet, you will need to acquire some.  One option fort acquiring either zUSD or BUSD is going to "Swap" in PancakeSwap. If you cannot find zUSD in "Swap" in PancakeSwap, you can add it by clicking the "gear" icon next to the Swap title.
 
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Add_Liquidity.png" alt=""><figcaption><p>Add Liquidity Page</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Add_Liquidity2.png" alt=""><figcaption><p>Add Liquidity Page Expanded upon clicking "Add Liquidity" button.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Swap.png" alt=""><figcaption><p>Swap if you need to acquire BUSD.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Swap_Settings1.png" alt=""><figcaption><p>Swap Settings - Consider Slippage tolerance.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Swap_Settings2.png" alt=""><figcaption><p>Swap Settings - In case zUSD is not showing up, click "Manage Tokens".</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_2_PancakeSwap_Swap_Settings3.png" alt=""><figcaption><p>Swap Settings - Add zUSD as a custom token (token contract for zUSD is available on the home page of Academy and on the Horizon Protocol website).</p></figcaption></figure>
+
 ### Step 3. Deposit LP Token in the Earn Tab
 
 The last and final step for depositing the LP tokens into the Earn tab to earn HZN.
+
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_1_horizon_genesis_earn_tab.png" alt=""><figcaption><p>Depositing into the Earn tab.</p></figcaption></figure>
 
 1. In Genesis's Earn tab ([https://genesis.horizonprotocol.com/earn](https://genesis.horizonprotocol.com/earn)), assuming that the contract has already been approved, there should be a \
    "+" and "-" icon. Click the "+" icon and input how much zUSD-BUSD LP tokens you want to deposit. The amount of LP tokens available should be visible in the bottom right hand side of the input box.\
@@ -50,3 +64,4 @@ Removing consists of performing the steps 2 and 3 in reverse order.
 1. In Genesis's Earn tab ([https://genesis.horizonprotocol.com/earn](https://genesis.horizonprotocol.com/earn)), remove the LP tokens from the Earn tab by pressing the "-" button, filling in the input with the number of tokens to remove, then clicking "UNSTAKE".
 2. Click on the link at the bottom of the Earn box that says "GET ZUSD-BUSD LP TOKENS"([https://pancakeswap.finance/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0xF0186490B18CB74619816CfC7FeB51cdbe4ae7b9](https://pancakeswap.finance/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0xF0186490B18CB74619816CfC7FeB51cdbe4ae7b9)) and click the back button next to "Add Liquidity". This will take you to the "Your Liquidity" page. Your LP tokens should be visible here if they have been unstaked. You can then remove liquidity to get zUSD and BUSD back.
 
+<figure><img src="../../.gitbook/assets/zUSD-BUSD_E_PancakeSwap_Your_Liqudity.png" alt=""><figcaption><p>"Your Liquidity" page.</p></figcaption></figure>
