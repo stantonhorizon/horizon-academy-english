@@ -218,7 +218,7 @@ There are 2 reasons this can occur:
 
 <summary><strong>How are my rewards calculated for staking HZN in Horizon Genesis?</strong></summary>
 
-Your rewards are calculated based on the proportion of your personal debt against the global debt pool. Your proportion of global debt is calculated based on a snapshot of the network taken every Friday around 5:00 UTC.
+Your rewards are calculated based on the proportion of your personal debt against the global debt pool. Your proportion of global debt is calculated based on a snapshot of the network taken every Friday around 15:00 UTC.
 
 `Your Weekly Rewards = Personal debt/Global debt * Weekly Rewards`
 

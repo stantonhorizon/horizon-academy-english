@@ -32,6 +32,7 @@
   * [Add Liquidity for zUSD-BUSD](horizon-genesis/guides/add-liquidity-for-zusd-busd.md)
   * [Add Liquidity for HZN-BNB](horizon-genesis/guides/add-liquidity-for-hzn-bnb.md)
   * [Add Liquidity for zBNB-BNB](horizon-genesis/guides/add-liquidity-for-zbnb-bnb.md)
+  * [Setting Up Chainlink Keepers](horizon-genesis/guides/setting-up-chainlink-keepers.md)
 * [Genesis FAQ](horizon-genesis/genesis-faq.md)
 
 ## Horizon Exchange
