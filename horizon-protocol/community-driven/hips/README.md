@@ -10,7 +10,7 @@ Horizon Protocol aims to become a fully functioning DAO. We strongly believe tha
 
 ## Active Proposals
 
-*
+* HIP-5: List New zAssets
 * [HIP-4: Use Keepers to Close Weekly Fee Periods](hip-4-use-keepers-to-close-weekly-fee-periods.md)
 
 ## Completed Proposals
