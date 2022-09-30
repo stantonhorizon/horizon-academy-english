@@ -32,7 +32,7 @@ Trading for AMZN, MSFT, and NVDA will be halted on Horizon Exchange when markets
 
 ## Motivation
 
-Listing new zAssets will increase the diversity of tradable assets by increasing the diversity of tradable assets and therefore increase the utility of Horizon Protocol. The assets chosen for this release were driven by the wishes of the community and are all top tier assets in their respective industries. MATIC and AVAX are top 20 crypto projects and AMZN, MSFT and NVDA are some of the largest and well known publicly traded companies, therefore price manipulation risks are at a minimum given their market sizes.
+Listing new zAssets will increase the diversity of tradable assets and therefore increase the utility of Horizon Protocol. The assets chosen for this release were driven by the wishes of the community and are all top tier assets in their respective industries. MATIC and AVAX are top 20 crypto projects and AMZN, MSFT and NVDA are some of the largest and well known publicly traded companies, therefore price manipulation risks are at a minimum given their market sizes.
 
 ## **Potential Risks**
 
