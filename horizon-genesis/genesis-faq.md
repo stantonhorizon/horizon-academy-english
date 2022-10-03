@@ -94,8 +94,8 @@ Learn more about staking [here](staking-on-horizon-genesis/). Get started [here]
 
 You must burn zUSD in order to unstake HZN. Burning zUSD will reduce your debt which also reduces the amount of HZN required to back that debt.
 
-* Any zUSD burned while under an 700% C-Ratio will only reduce your debt and increase your C-Ratio, but will not unstake any HZN.
-* Any zUSD burned while over an 700% C-Ratio will reduce your debt AND unstake HZN at an 700% ratio. Reducing your debt to 0 would unstake all of your HZN. Unstaked HZN would become 'transferable' HZN, which is freely usable HZN.
+* Any zUSD burned while under an 800% C-Ratio will only reduce your debt and increase your C-Ratio, but will not unstake any HZN.
+* Any zUSD burned while over an 800% C-Ratio will reduce your debt AND unstake HZN at an 800% ratio. Reducing your debt to 0 would unstake all of your HZN. Unstaked HZN would become 'transferable' HZN, which is freely usable HZN.
 
 </details>
 
@@ -111,10 +111,9 @@ When staking HZN in Horizon Genesis, your HZN will never actually leave your wal
 
 <summary>Why is my HZN staked amount constantly changing?</summary>
 
-Horizon Protocol has a dynamic staking mechanism that automatically adjusts the amount of HZN staked based on the current price of HZN in order to always maintain an 700% backing of your current debt. Transferable and escrowed HZN are dynamically used to maintain an 700% C-Ratio as the price of HZN fluctuates.
+Horizon Protocol has a dynamic staking mechanism that automatically adjusts the amount of HZN staked based on the current price of HZN in order to always maintain an 800% backing of your current debt. Transferable and escrowed HZN are dynamically used to maintain an 800% C-Ratio as the price of HZN fluctuates.
 
-Let’s take an example:\
-(below calculations assumes 1 HZN = $1 and uses a C-Ratio of 800%, which was the original C-Ratio before being lowered to 700%)
+Let’s take an example: (using a C-Ratio of 800%)
 
 1. You mint 100 zUSD with 800 HZN (1 HZN = $1) at 800% C-Ratio, your staked HZN balance would be 800 and your transferable HZN balance would be 0 (assuming you staked all of your HZN).
 2. The price of HZN goes up to $1.5, now you would only need 533.33 HZN to back your 100 zUSD. Horizon Genesis would automatically release 266.67 HZN from being staked and it would become transferable HZN. This transferable HZN could then be freely used to mint more zUSD, transferred to another wallet, or sold on an exchange.
@@ -128,11 +127,11 @@ Let’s take an example:\
 
 Staking HZN means that you are putting the HZN in there as collateral to Mint/Borrow zUSD. The reason it is called Minting instead of Borrowing is because there is no interest in this process. This is also why zUSD is called “Debt”, because you are technically borrowing this zUSD and you need to return it to be able to take back your HZN. An example of this would be a second mortgage, where you use your house as the collateral and you’re able to borrow some money. To get the house back to be fully under your ownership, then you need to pay back all the money first.
 
-C-Ratio stands for collateralization ratio. This is the amount of collateral needed to borrow/mint a certain amount of zUSD. At 700%, you need $700 worth of HZN to mint $100 of zUSD.
+C-Ratio stands for collateralization ratio. This is the amount of collateral needed to borrow/mint a certain amount of zUSD. At 800%, you need $800 worth of HZN to mint $100 of zUSD.
 
-If the price of HZN goes up to double the price, then your HZN is now worth $1400, which means that if you haven’t touched anything else, you are now at a c-ratio of 1400%. At this point, you can Mint again, which would take the extra $700 of HZN and borrow/mint to give you another $100 zUSD for a total of $200 zUSD at 700% c-ratio.
+If the price of HZN goes up to double the price, then your HZN is now worth $1600, which means that if you haven’t touched anything else, you are now at a c-ratio of 1600%. At this point, you can Mint again, which would take the extra $800 of HZN and borrow/mint to give you another $100 zUSD for a total of $200 zUSD at 800% c-ratio.
 
-If the price of HZN drops by half back to the previous price so that it is worth $700 again, then you c-ratio has now dropped to 350%. To get back to 700% c-ratio, you need to “Burn”/repay $100 of zUSD so you are back at $100 zUSD of debt.
+If the price of HZN drops by half back to the previous price so that it is worth $800 again, then you c-ratio has now dropped to 400%. To get back to 800% c-ratio, you need to “Burn”/repay $100 of zUSD so you are back at $100 zUSD of debt.
 
 So the final conclusion is if you hold the zUSD that you mint and don’t do anything with it (trading it away or using it to invest in something else), you will have all the zUSD needed to “burn”/repay your zUSD debt and take out your collateral of HZN.
 
@@ -150,7 +149,7 @@ There is a 24 hour period between minting and burning zUSD. This is necessary to
 
 <summary><strong>When I stake HZN, and there is the possibility of liquidation, to what degree is my position "leveraged"? I still have my balance of HZN. The threat of liquidation implies that it is leveraged, but this scenario does not seem to entail it?</strong></summary>
 
-Liquidation in Horizon Protocol is not the same as liquidation of a leveraged or margin position. Your position in Horizon Protocol is not leveraged, you are actually over-collateralizing a debt position at an 700% ratio to back the creation of synthetic assets. Liquidation occurs when you lack sufficient backing of those synthetic assets. Please refer to the [liquidation section](staking-on-horizon-genesis/liquidation.md).
+Liquidation in Horizon Protocol is not the same as liquidation of a leveraged or margin position. Your position in Horizon Protocol is not leveraged, you are actually over-collateralizing a debt position at an 800% ratio to back the creation of synthetic assets. Liquidation occurs when you lack sufficient backing of those synthetic assets. Please refer to the [liquidation section](staking-on-horizon-genesis/liquidation.md).
 
 </details>
 
@@ -160,23 +159,23 @@ Liquidation in Horizon Protocol is not the same as liquidation of a leveraged or
 
 <summary>What is C-Ratio?</summary>
 
-Collateralization Ratio or C-Ratio is the ratio between your collateral and your debt. Horizon Protocol currently has a target C-Ratio of 700% meaning you need $7 worth of HZN staked to mint $1 zUSD to have a $1 debt. The purpose of the C-Ratio is to ensure that the synthetics produced by Horizon Protocol are sufficiently backed during price fluctuations.
+Collateralization Ratio or C-Ratio is the ratio between your collateral and your debt. Horizon Protocol currently has a target C-Ratio of 800% meaning you need $8 worth of HZN staked to mint $1 zUSD to have a $1 debt. The purpose of the C-Ratio is to ensure that the synthetics produced by Horizon Protocol are sufficiently backed during price fluctuations.
 
 </details>
 
 <details>
 
-<summary><strong>What happens if my C-Ratio drops below 700%?</strong></summary>
+<summary><strong>What happens if my C-Ratio drops below 800%?</strong></summary>
 
-If your C-Ratio drops below 700% you will not be able to claim rewards. You will continue to gain rewards but will need to restore your C-Ratio to 700% by burning zUSD or adding more HZN in order to claim rewards. If you do not claim your rewards after a week, your rewards will be forfeited and redistributed to the following week's reward pool.
+If your C-Ratio drops below 800% you will not be able to claim rewards. You will continue to gain rewards but will need to restore your C-Ratio to 800% by burning zUSD or adding more HZN in order to claim rewards. If you do not claim your rewards after a week, your rewards will be forfeited and redistributed to the following week's reward pool.
 
 </details>
 
 <details>
 
-<summary><strong>How do I know how much zUSD to burn in order to rebalance my C-Ratio to 700%?</strong></summary>
+<summary><strong>How do I know how much zUSD to burn in order to rebalance my C-Ratio to 800%?</strong></summary>
 
-Horizon Genesis has preset strategies to help you manage your C-Ratio. Simply clicking the “Aggressive - 700%” preset strategy will automatically calculate how much zUSD you need to burn to return to 700%. You may also manually input how much zUSD you want to burn if you want to maintain a different C-Ratio.
+Horizon Genesis has preset strategies to help you manage your C-Ratio. Simply clicking the “Aggressive - 800%” preset strategy will automatically calculate how much zUSD you need to burn to return to 800%. You may also manually input how much zUSD you want to burn if you want to maintain a different C-Ratio.
 
 </details>
 
@@ -184,7 +183,7 @@ Horizon Genesis has preset strategies to help you manage your C-Ratio. Simply cl
 
 <summary><strong>When exactly am I in the liquidation zone?</strong></summary>
 
-If your C-Ratio goes under 200% - you will be automatically flagged for liquidation. Horizon Genesis has a 3-day grace period to allow you to restore your C-Ratio and clear your liquidation flag before your account becomes available for liquidation. You will need to restore your C-Ratio back to 700% before you're able to clear your liquidation flag.
+If your C-Ratio goes under 200% - you will be automatically flagged for liquidation. Horizon Genesis has a 3-day grace period to allow you to restore your C-Ratio and clear your liquidation flag before your account becomes available for liquidation. You will need to restore your C-Ratio back to 800% before you're able to clear your liquidation flag.
 
 **WARNING:**
 
@@ -198,7 +197,7 @@ Learn more about liquidation [here](staking-on-horizon-genesis/liquidation.md).
 
 <summary><strong>When I burn zUSD, do I also burn my HZN?</strong></summary>
 
-No, you never lose HZN when burning zUSD. If your C-Ratio is under 700%, burning zUSD just reduces your debt and increases your C-Ratio. Once your C-Ratio is above 700% you will begin to unstake your HZN when burning zUSD. Reducing your debt to 0 would unstake all of your HZN. Unstaked HZN will become 'transferable' HZN, which is freely usable HZN.
+No, you never lose HZN when burning zUSD. If your C-Ratio is under 800%, burning zUSD just reduces your debt and increases your C-Ratio. Once your C-Ratio is above 800% you will begin to unstake your HZN when burning zUSD. Reducing your debt to 0 would unstake all of your HZN. Unstaked HZN will become 'transferable' HZN, which is freely usable HZN.
 
 </details>
 
@@ -208,7 +207,7 @@ No, you never lose HZN when burning zUSD. If your C-Ratio is under 700%, burning
 
 There are 2 reasons this can occur:
 
-1. You are under 700% C-Ratio, therefore no HZN will actually become unstaked until you burn zUSD while over 700% C-Ratio.
+1. You are under 800% C-Ratio, therefore no HZN will actually become unstaked until you burn zUSD while over 800% C-Ratio.
 2. All escrowed HZN you have used to stake must be first unstaked before un-escrowed HZN begins to unstake and become transferable.
 
 </details>
@@ -229,7 +228,7 @@ Your rewards are calculated based on the proportion of your personal debt agains
 
 <summary><strong>How do I maximize rewards?</strong></summary>
 
-To maximize rewards you want to hold more debt and mint with all of your HZN (aggressive 700% strategy). Any price drop from the point of minting at 700% will result in you not being able to claim rewards. You have 1 week, until the next week’s reward period starts, to make sure your C-Ratio is at least 700% and claim your rewards or they will be forfeited and returned to the following week’s reward pool for others to earn.
+To maximize rewards you want to hold more debt and mint with all of your HZN (aggressive 800% strategy). Any price drop from the point of minting at 800% will result in you not being able to claim rewards. You have 1 week, until the next week’s reward period starts, to make sure your C-Ratio is at least 800% and claim your rewards or they will be forfeited and returned to the following week’s reward pool for others to earn.
 
 **DANGER:**
 
