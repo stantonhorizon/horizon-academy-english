@@ -4,7 +4,9 @@ description: Horizon Protocol Supply and Inflation Policy
 
 # Tokenomics
 
-Originally published [here](https://horizonprotocol.medium.com/horizon-supply-and-inflation-policy-f0aaa8cc4a3a) as a Medium article.**Summary**
+Originally published [here](https://horizonprotocol.medium.com/horizon-supply-and-inflation-policy-f0aaa8cc4a3a) as a Medium article.
+
+**Summary:**
 
 * The Horizon Protocol inflation policy incentivizes collateral providers, liquidity providers, and synthetic asset onramps.
 * Purpose is to stimulate early growth and overall health of the protocol.

@@ -4,7 +4,7 @@ description: An Introduction to Horizon Genesis
 
 # Introduction
 
-Horizon Genesis is the backbone for all the synthetic assets in the Horizon Protocol ecosystem.&#x20;
+Horizon Genesis is the backbone for all the synthetic assets in the Horizon Protocol ecosystem.
 
 Horizon Genesis maintains the collateralization ratio by offering staking mechanisms for the Horizon Protocol network to stabilize the ecosystem and create synthetic assets. Horizon Genesis is used to create Horizon Protocol's first synthetic asset, the zUSD, which is minted with HZN as collateral.
 
@@ -18,17 +18,4 @@ In other words, synthetic assets are created by staking liquidity as collateral 
 
 Horizon Genesis stakers proactively manage the liquidity provided by maintaining a safe debt-to-collateralization ratio, also known as a “C-ratio”. Maintaining a healthy C-ratio protects stakers and the protocol against default risk.
 
-
-
 **The fundamental core of Horizon Protocol are synthetic assets. And synthetic assets are created in Horizon Genesis, which makes Horizon Genesis the backbone of the Horizon Protocol.**
-
-
-
-\
-
-
-\
-
-
-
-

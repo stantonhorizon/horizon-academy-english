@@ -46,8 +46,6 @@ All rewards are supplied by Horizon Protocol's monetary policy outlined [here](.
 
 **Smart Contract**: `0xD4552F3e19B91BeD5EF2c76a67ABdbFfeD5caEEC`
 
-
-
 ## Rewards Timeline
 
 | Pool                           | Ends on                                                                      |
@@ -58,6 +56,3 @@ All rewards are supplied by Horizon Protocol's monetary policy outlined [here](.
 | PHB Pool                       | Ended on April 15th, 2022.                                                   |
 | HZN Pool on Horizon Staker     | Ended on July 23rd, 2021 and transitioned to Staking HZN in Horizon Genesis. |
 
-
-
-\

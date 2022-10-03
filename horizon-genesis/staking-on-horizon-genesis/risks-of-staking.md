@@ -11,13 +11,13 @@ C-Ratio needs to be maintained to collect rewards. There are two states that you
 
 There are two ways in which C-Ratio can change:
 
-* If the market price of HZN increases, the HZN you need to collateralize your position will reduce and your current C-Ratio will increase. Horizon Genesis will automatically release the amount of staked HZN you have to become Transferable HZN (or Escrowed HZN if you have staked your rewards) in order to always maintain a 800% ratio based on your current debt. You have the option to re-stake the extra available HZN.
-* If the market price of HZN decreases, your C-Ratio will decrease. If you have Transferable or Escrowed HZN available, Horizon Genesis will automatically migrate those balances to become Staked HZN in order to always maintain the 800% collateralization ratio.
+* If the market price of HZN increases, the HZN you need to collateralize your position will reduce and your current C-Ratio will increase. Horizon Genesis will automatically release the amount of staked HZN you have to become Transferable HZN (or Escrowed HZN if you have staked your rewards) in order to always maintain a 700% ratio based on your current debt. You have the option to re-stake the extra available HZN.
+* If the market price of HZN decreases, your C-Ratio will decrease. If you have Transferable or Escrowed HZN available, Horizon Genesis will automatically migrate those balances to become Staked HZN in order to always maintain the 700% collateralization ratio.
 
 There are two ways to maintain your C-ratio:
 
 * Burn some zUSD. This pays back some or all of your debt and will increase your C-Ratio.
-* Stake more HZN. This provides more collateral and will increase your C-Ratio. If your current C-Ratio is under 800%, just adding HZN to your wallet will automatically stake your HZN (up to 800%).
+* Stake more HZN. This provides more collateral and will increase your C-Ratio. If your current C-Ratio is under 700%, just adding HZN to your wallet will automatically stake your HZN (up to 700%).
 
 ## Price Fluctuations in the Global Debt Portfolio
 
@@ -39,7 +39,7 @@ Claims are available until the next reward claim period starts (7 days). Make su
 
 ## Liquidation
 
-If your C-Ratio falls below 200% you will be flagged for liquidation. Once you are flagged for liquidation, you have 3 days to restore your C-Ratio back to 800% and remove the liquidation flag, otherwise, you can be liquidated. Once you are back to a C-Ratio of 800%, you can execute the transaction to clear your liquidation flag. Please note that if you restore your C-ratio back to 800%, but fail to remove the liquidation flag, your account will still be vulnerable to liquidation if you ever go under 800%. If your account does get liquidated, this flag is automatically removed without the user needing to clear it. To learn more about how liquidation works under the hood, please go to the [Liquidation](liquidation.md) page.
+If your C-Ratio falls below 200% you will be flagged for liquidation. Once you are flagged for liquidation, you have 3 days to restore your C-Ratio back to 700% and remove the liquidation flag, otherwise, you can be liquidated. Once you are back to a C-Ratio of 700%, you can execute the transaction to clear your liquidation flag. Please note that if you restore your C-ratio back to 700%, but fail to remove the liquidation flag, your account will still be vulnerable to liquidation if you ever go under 700%. If your account does get liquidated, this flag is automatically removed without the user needing to clear it. To learn more about how liquidation works under the hood, please go to the [Liquidation](liquidation.md) page.
 
 Please check the [strategy](c-ratio-strategies.md) section for more details on how to approach staking HZN and the best approach that fits you.
 
