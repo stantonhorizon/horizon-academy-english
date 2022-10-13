@@ -4,6 +4,10 @@ description: Use Chainlink Keepers to Auto-Claim
 
 # Setting Up Chainlink Keepers
 
+{% hint style="danger" %}
+This guide is not ready to be used yet, as we are still fleshing out a feel final details with Chainlink. If you have any questions, please let us know in the Telegram Channel.
+{% endhint %}
+
 Welcome to the Guide for using Chainlink Keepers to auto-claim your weekly Horizon Genesis staking rewards.
 
 The following guide will take you through the process of setting Chainlink Keepers up (screenshots from 2022.09.18).
@@ -39,7 +43,8 @@ One of the most important questions will probably be how much LINK tokens you ne
 
 The pre-requisite step is to allow Chainlink Keepers to claim for you by giving it permission.
 
-The target contract address you will be giving permission to is: 0xaD4ceBA3d9c4b09788B76D3B07EA4AC044e2660d
+The target contract address you will be giving permission to is: \
+\\\[Target Contract Address coming soon\\]
 
 To grant authorization, please follow the following steps:
 
@@ -141,7 +146,7 @@ We will now register your Keepers:\
 
 <figure><img src="../../.gitbook/assets/3_Register_Keepers_12.png" alt=""><figcaption><p>Input the Target contract address (address available below).</p></figcaption></figure>
 
-Target contract address: 0xaD4ceBA3d9c4b09788B76D3B07EA4AC044e2660d
+Target contract address: \\\[Target Contract Address coming soon\\]
 
 <figure><img src="../../.gitbook/assets/3_Register_Keepers_14.png" alt=""><figcaption><p>Fill in the above information and then click "Register Upkeep". Information details below.</p></figcaption></figure>
 
