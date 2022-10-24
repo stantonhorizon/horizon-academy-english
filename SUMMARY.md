@@ -6,6 +6,7 @@
 
 * [Introduction](horizon-protocol/introduction/README.md)
   * [Tokenomics](horizon-protocol/introduction/tokenomics.md)
+  * [Security Audit](horizon-protocol/introduction/security-audit.md)
 * [Synthetic Assets - zAssets](horizon-protocol/synthetic-assets-zassets.md)
 * [Community Driven](horizon-protocol/community-driven/README.md)
   * [HIPs](horizon-protocol/community-driven/hips/README.md)
