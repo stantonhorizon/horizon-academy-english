@@ -1,10 +1,10 @@
 ---
-description: Latest update - July 6, 2022
+description: Latest update - October 7, 2022
 ---
 
 # Roadmap
 
-![Horizon Protocol Roadmap Update - July 6, 2022](<../../.gitbook/assets/roadmap update 1.2.png>)
+<figure><img src="../../.gitbook/assets/roadmap update 1.3 (1).png" alt=""><figcaption><p>Horizon Protocol Roadmap Update - October 7, 2022</p></figcaption></figure>
 
 ## Ongoing
 
