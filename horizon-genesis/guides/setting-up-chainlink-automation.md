@@ -1,64 +1,76 @@
 ---
-description: Use Chainlink Keepers to Auto-Claim
+description: Use Chainlink Automation to Auto-Claim
 ---
 
-# Setting Up Chainlink Keepers
+# Setting Up Chainlink Automation
 
 {% hint style="danger" %}
 This guide is not ready to be used yet, as we are still fleshing out a feel final details with Chainlink. If you have any questions, please let us know in the Telegram Channel.
 {% endhint %}
 
-Welcome to the Guide for using Chainlink Keepers to auto-claim your weekly Horizon Genesis staking rewards.
+Welcome to the Guide for using Chainlink Automation to auto-claim your weekly staking rewards on Horizon Genesis.
 
-The following guide will take you through the process of setting Chainlink Keepers up (screenshots from 2022.09.18).
+The following guide will take you through the process of setting Chainlink Automation up (screenshots from 2022.09.18).
 
 {% hint style="info" %}
-Note that setting up Chainlink Keepers for Horizon Genesis will help with auto-claiming, but it does not auto-burn to fix your C-Ratio.&#x20;
+Note that setting up Chainlink Automation for Horizon Genesis will help with auto-claiming, but it does not auto-burn to fix your C-Ratio.&#x20;
 
-We will be looking into how to potentially include auto-burning into the Keepers contract so it can be completely hands-off in the future.
+We will be looking into how to potentially include auto-burning into the Chainlink Automation contract so it can be completely hands-off in the future.
 {% endhint %}
 
+#### Chainlink Automation Quick Start
 
+[Step 0. Grant Contract Authorization](setting-up-chainlink-automation.md#step-0.-grant-contract-authorization)\
+[Step 1. Get LINK BEP-20 Tokens](setting-up-chainlink-automation.md#step-1.-get-link-bep-20-tokens)\
+[Step 2. Convert LINK BEP-20 to BEP-677](setting-up-chainlink-automation.md#step-2.-convert-link-bep-20-to-bep-677)\
+[Step 3. Register Upkeep](setting-up-chainlink-automation.md#step-3.-register-upkeep)\
+[Step 4. Auto-Claiming](setting-up-chainlink-automation.md#step-4.-auto-claiming)\
+[Optional Step 5. Canceling Your Upkeep](setting-up-chainlink-automation.md#optional-step-5.-canceling-your-upkeep)
 
-### What is Chainlink Keepers?
+### What is Chainlink Automation?
 
-Chainlink Keepers is a decentralized automation service. For Horizon Genesis, the way Keepers works is it will check every block to see if Claim is available. If it is, it will automatically claim for you. Each claim will cost LINK tokens, though checking is free and will not cost anything.
+Chainlink Automation is a decentralized automation service. For Horizon Genesis, the way Chainlink Automation works is it will check every block to see if a reward claim is available. If it is, it will automatically claim your rewards for you on your behalf. Each claim transaction will cost LINK tokens, though checking if a claim is available or not is free and will not cost anything.
 
 {% hint style="warning" %}
-Before you start, it is important to note that Keepers cost money to upkeep. A certain amount of LINK tokens need to be stored in Keepers and each weekly claim will deduct from your LINK tokens.
+Before you start, it is important to note that a Chainlink Automation upkeep costs money to maintain. A minimum balance of LINK tokens is required to be stored in an upkeep for it to operate and each weekly claim will deduct a small amount of LINK tokens.
 
 Also, the entire process currently is only supported by MetaMask wallet.
 {% endhint %}
 
-To activate, you need to give Keepers permission to take the actions you want and deposit enough money (in the form of Link tokens and whatever tokens you need for your transactions) for it to take these actions for you.
+To activate, you need to give the Chainlink Automation upkeep contract permission to take the actions you want and deposit enough money (in the form of ERC-677 LINK tokens) for it to take these actions for you.
 
-For more information about Chainlink Keepers, you can read about it here: [https://docs.chain.link/docs/chainlink-keepers/introduction/](https://docs.chain.link/docs/chainlink-keepers/introduction/)
+For more information about Chainlink Automation, you can read about it here:&#x20;
 
-One of the most important questions will probably be how much LINK tokens you need to get. There is specific documentation regarding this available here:\
-[https://docs.chain.link/docs/chainlink-keepers/supported-networks/](https://docs.chain.link/docs/chainlink-keepers/supported-networks/#bnb-chain)#bnb[-chain](https://docs.chain.link/docs/chainlink-keepers/supported-networks/#bnb-chain)
+{% embed url="https://docs.chain.link/docs/chainlink-automation/introduction/" %}
+
+One of the most important questions will be how many LINK tokens are required to maintain an upkeep. There is specific documentation regarding this available here:&#x20;
+
+{% embed url="https://docs.chain.link/docs/chainlink-automation/manage-upkeeps/" %}
 
 
 
 ### Step 0. Grant Contract Authorization
 
-The pre-requisite step is to allow Chainlink Keepers to claim for you by giving it permission.
+The pre-requisite step is to allow the Chainlink Automation upkeep contract to claim for you by giving it permission to claim on your behalf.
 
 The target contract address you will be giving permission to is: \
-\\\[Target Contract Address coming soon\\]
+0xa623F29ae4cEd27dFBB39a94152F3184140f6c21
 
 To grant authorization, please follow the following steps:
 
 {% hint style="info" %}
 The following user interface Horizon Genesis is being built and should be online soon.
 
-In the meantime, please scroll down a little to see instructions for authorization via BSCScans.
+In the meantime, please scroll down a little to see instructions for authorization via BSCscan.com.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Authorize - Connected - No Input - No Data.png" alt=""><figcaption><p>There is now a new "Authorize" section between "Escrow" and "History". "Authorize" will allow you to select other wallets to be able to perform operations for you.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Authorize - Connected - With Inputs - Full Data.png" alt=""><figcaption><p>Add the wallet address to authorize. You can also select what permissions to give them. Below in "Manage Authorizations", you can see all permissions that have been given out previously with the ability to remove these permissions at any time. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Authorize - Connected - With Inputs - Full Data.png" alt=""><figcaption><p>Add the wallet/contract address to authorize and select what permissions to give it. Below in "Manage Authorizations", you can see all permissions that have been given out previously with the ability to remove these permissions at any time. </p></figcaption></figure>
 
-In the meantime, before the "Authorize" tab is built, you can activate authorization by going to: [https://bscscan.com/address/0x9657a0FD98e88464E1159d98b517A4945dbFBFC8](https://bscscan.com/address/0x9657a0FD98e88464E1159d98b517A4945dbFBFC8)
+In the meantime, before the "Authorize" tab is built, you can activate authorization by going to:&#x20;
+
+{% embed url="https://bscscan.com/address/0x9657a0FD98e88464E1159d98b517A4945dbFBFC8" %}
 
 <figure><img src="../../.gitbook/assets/0_Grant_Permission_BSCScan_02.png" alt=""><figcaption><p>Click on "Contract" (where the green checkmark is) to see the above page. Link your wallet by clicking "Connect to Web3". Once connected, it should show a green dot and say "Connected - Web3" with your wallet address behind it. Input the contract address to "4. approveClaimOnBehalf" and then click "Write".</p></figcaption></figure>
 
@@ -70,13 +82,14 @@ Once confirmed, authorization will have been completed.
 
 ### Step 1. Get LINK BEP-20 Tokens
 
-The first thing you will need to do for Chainlink Keepers is to acquire LINK tokens.
+The first thing you will need to do to create a Chainlink Automation Upkeep is to acquire LINK tokens.
 
-1. You can acquire LINK BEP-20 tokens at DEXs, such as PancakeSwap, or CEXs, such as Binance.
-2. Make sure that you are buying the BEP-20 token (BNB Chain token) and not the ERC-20 token (Ethereum token). Since Keepers will need to be operating on the BNB Chain for Horizon Protocol, it must be the BEP-20 token.
+1. You can acquire LINK BEP-20 tokens at DEXs, such as PancakeSwap, or CEXs, such as Binance. It is recommended to buy at least **10 LINK tokens** to maintain your Auto-Claim Upkeep. This balance could maintain your upkeep for about 4-5 months, but the true duration is based on market prices.
+2. If you are buying LINK tokens on a CEX, such as Binance, make sure you are withdrawing the LINK onto the BNB Chain (BEP-20 token) and not withdrawing onto the Ethereum chain (ERC-20 token). Since the Chainlink Automation upkeep is operating on the BNB Chain for Horizon Protocol, it must be a BEP-20 LINK token.
 
-The screenshots below will focus on using PancakeSwap to buy LINK BEP-20 tokens:\
-[https://pancakeswap.finance/](https://pancakeswap.finance/)
+The screenshots below will focus on using PancakeSwap to buy LINK BEP-20 tokens:
+
+{% embed url="https://pancakeswap.finance/swap?outputCurrency=0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD" %}
 
 <figure><img src="../../.gitbook/assets/1_Get_LINK_BEP-20_Tokens_03.png" alt=""><figcaption><p>Connect your wallet to PancakeSwap. Click on "CAKE" on the right side Swap section of the page to open the modal.</p></figcaption></figure>
 
@@ -98,7 +111,7 @@ The screenshots below will focus on using PancakeSwap to buy LINK BEP-20 tokens:
 
 ### Step 2. Convert LINK BEP-20 to BEP-677
 
-Chainlink Keepers uses a special wrapped ERC677 format, which allows you to include additional data along with the contract. This functionality is required for Keepers to be able to perform decentralized automation.
+Chainlink Automation uses a special wrapped ERC-677 format, which allows you to include additional data along with the contract. This functionality is required for Chainlink Automation upkeep to be able to perform its decentralized automation.
 
 In this step, we will be converting LINK BEP-20 into a LINK BEP-677 token.
 
@@ -106,9 +119,13 @@ In this step, we will be converting LINK BEP-20 into a LINK BEP-677 token.
 Fun fact: the LINK BEP-677 token is a wrapped ERC677 token, which is a synthetic asset that uses the original BEP-20 token as collateral.
 {% endhint %}
 
-To convert, we will be going to the following website: [https://pegswap.chain.link/](https://pegswap.chain.link/)
+To convert, we will be going to the following website:
+
+{% embed url="https://pegswap.chain.link/" %}
 
 <figure><img src="../../.gitbook/assets/2_Convert_to_LINK_BEP-677_02.png" alt=""><figcaption><p>When you first get to https://pegswap.chain.link/, you will need to connect your wallet.</p></figcaption></figure>
+
+
 
 <figure><img src="../../.gitbook/assets/2_Convert_to_LINK_BEP-677_03.png" alt=""><figcaption><p>Connect your wallet to Pegswap. Always confirm that the address is correct.</p></figcaption></figure>
 
@@ -120,21 +137,21 @@ To convert, we will be going to the following website: [https://pegswap.chain.li
 
 After a successful swap, the pegchain page will typically freeze. Just refresh it (this is a known bug) and it should show your tokens have swapped.&#x20;
 
-Lastly, if you want to add the token to your wallet, this is the Wrapped ERC677 LINK contract address for the BNB Chain: 0x404460C6A5EdE2D891e8297795264fDe62ADBB75
+Lastly, if you want to add the token to your Metamask wallet, this is the Wrapped ERC677 LINK token address for the BNB Chain: 0x404460C6A5EdE2D891e8297795264fDe62ADBB75
 
-More details on the contract address here:\
-[https://docs.chain.link/docs/link-token-contracts/#bnb-chain](https://docs.chain.link/docs/link-token-contracts/#bnb-chain)
+More details on the contract address here:
 
+{% embed url="https://docs.chain.link/docs/link-token-contracts/#bnb-chain" %}
 
-
-### Step 3. Register Keepers
+### Step 3. Register Upkeep
 
 We are at the final step of this process.
 
-We will now register your Keepers:\
-[https://keepers.chain.link/](https://keepers.chain.link/)
+We will now register your upkeep:&#x20;
 
-<figure><img src="../../.gitbook/assets/3_Register_Keepers_01.png" alt=""><figcaption><p>This is the Chainlink Keepers page.</p></figcaption></figure>
+{% embed url="https://automation.chain.link/bsc" %}
+
+<figure><img src="../../.gitbook/assets/3_Register_Keepers_01.png" alt=""><figcaption><p>This is the Chainlink Automation page.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/3_Register_Keepers_02.png" alt=""><figcaption><p>Connect your wallet. Currently only supports MetaMask.</p></figcaption></figure>
 
@@ -146,22 +163,22 @@ We will now register your Keepers:\
 
 <figure><img src="../../.gitbook/assets/3_Register_Keepers_12.png" alt=""><figcaption><p>Input the Target contract address (address available below).</p></figcaption></figure>
 
-Target contract address: \\\[Target Contract Address coming soon\\]
+Target contract address: 0xa623F29ae4cEd27dFBB39a94152F3184140f6c21
 
 <figure><img src="../../.gitbook/assets/3_Register_Keepers_14.png" alt=""><figcaption><p>Fill in the above information and then click "Register Upkeep". Information details below.</p></figcaption></figure>
 
 Information to be written above:
 
-* Upkeep Name: Horizon Protocol Auto-Claim\
+* **Upkeep Name**: Horizon Protocol Auto-Claim\
   (limited length, you can choose whatever name)
-* Gas limit: 700,000\
+* **Gas limit**: 700,000\
   (gas limit will be higher than how much it would cost to just claim directly because it is a contract calling another contract. Typical gas required for small transactions are around 250000, within the same order of magnitude. It is kind of weird to see 2300 as a gas limit written in the text box.)
-* Starting Balance (LINK)\
-  (add how much LINK, the wrapped ERC677 ones, that you want to deposit into your Keepers)
-* Check data (Hexadecimal) \
-  (Is the public address of your wallet)
+* **Starting Balance** (LINK): 10+ \
+  (add how much LINK, the wrapped ERC677 ones, that you want to deposit into your upkeep. It is recommended to deposit at least 10 as the Minimum Balance to maintain the upkeep can fluctuate based on market prices)
+* Check data (Hexadecimal): Your Wallet Address \
+  (Is the public address of your wallet you want to claim rewards on)
 * Your email address\
-  (Email Needed for email notifications)
+  (Email Needed for Upkeep notifications)
 
 The above information can be changed later, but it will cost a transaction.
 
@@ -169,15 +186,23 @@ The above information can be changed later, but it will cost a transaction.
 
 <figure><img src="../../.gitbook/assets/3_Register_Keepers_16.png" alt=""><figcaption><p>MetaMask confirmation with transaction cost.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/3_Register_Keepers_17.png" alt=""><figcaption><p>Once confirmed, the Keepers page will look like this. Please wait until Keepers confirms the transaction.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3_Register_Keepers_17.png" alt=""><figcaption><p>Once confirmed, the Upkeep page will look like this. Please wait until the transaction is confirmed.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/3_Register_Keepers_18.png" alt=""><figcaption><p>Once the transaction confirmed, you will see this.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/3_Register_Keepers_19.png" alt=""><figcaption><p>Upon completion, your Keepers page should look like this, with "Status" showing "Active".</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3_Register_Keepers_19.png" alt=""><figcaption><p>Upon completion, your Upkeep page should look like this, with "Status" showing "Active".</p></figcaption></figure>
 
-Remember to refresh your Keepers page until the "Minimum Balance" shows up. "Balance" should also show up.
+If everything is set up properly and you have rewards to claim with the proper C-Ratio, the Upkeep should immediately claim your rewards for you.
 
-Random information about min-balance: https://docs.chain.link/docs/chainlink-keepers/keeper-economics/#minimum-balance \[gas limit] \* \[current gas price] \* \[gasCeilingMultiplier]
+Remember to refresh your Upkeep page until the "Minimum Balance" shows up. "Balance" should also show up.
+
+Random information about min-balance:&#x20;
+
+{% embed url="https://docs.chain.link/docs/chainlink-automation/automation-economics/#minimum-balance" %}
+&#x20;\[gas limit] \* \[current gas price] \* \[gasCeilingMultiplier]
+{% endembed %}
+
+
 
 
 
@@ -185,26 +210,32 @@ Random information about min-balance: https://docs.chain.link/docs/chainlink-kee
 
 This isn't really a step, but just showing how the Auto-Claiming will work.
 
-<figure><img src="../../.gitbook/assets/4_Auto_Claim_01.png" alt=""><figcaption><p>If you had not claimed before you set up Keepers and a Claim was available, this is what your Claim page will look like before.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4_Auto_Claim_01.png" alt=""><figcaption><p>If you had not claimed before you set up an Upkeep and a Claim was available, this is what your Claim page will look like before.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/4_Auto_Claim_02.png" alt=""><figcaption><p>And this is what your Claim page will look like after (basically, you didn't click "Claim Now" because Keepers claimed for you). Note that Keepers can only Claim when you have the proper C-Ratio. Keepers currently cannot auto-burn for you.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4_Auto_Claim_02.png" alt=""><figcaption><p>And this is what your Claim page will look like after (basically, you didn't click "Claim Now" because your Upkeep claimed for you). Note that the Upkeep can only Claim when you have the proper C-Ratio. The Upkeep currently cannot auto-burn for you.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/4_Auto_Claim_03.png" alt=""><figcaption><p>If you go to https://keepers.chain.link/, you will see "Perform Upkeep" in History.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4_Auto_Claim_03.png" alt=""><figcaption><p>If you go to https://automation.chain.link/, you will see "Perform Upkeep" in History.</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/4_Auto_Claim_05.png" alt=""><figcaption><p>If you go to <a href="https://bscscan.com/address/0x9657a0FD98e88464E1159d98b517A4945dbFBFC8">https://bscscan.com/address/0x9657a0FD98e88464E1159d98b517A4945dbFBFC8</a>, you should also be able to see your automated transaction.</p></figcaption></figure>
 
-For reference, the automated Keepers transaction cost $1.22 ($0.95 + 30% premium). The 30% premium on BNB Chain is lower than on any of the other chains (can compare here: [https://docs.chain.link/docs/chainlink-keepers/supported-networks/](https://docs.chain.link/docs/chainlink-keepers/supported-networks/))
+For reference, the automated Upkeep transaction cost $1.22 ($0.95 + 30% premium). The 30% premium on BNB Chain is lower than on any of the other chains (can compare here:&#x20;
 
-The above Keepers transaction can also be found here: [https://keepers.chain.link/bsc/61895360697707478624580988307616544952190176251316156526569833881526378957381](https://keepers.chain.link/bsc/61895360697707478624580988307616544952190176251316156526569833881526378957381)
+{% embed url="https://docs.chain.link/docs/chainlink-automation/supported-networks/" %}
 
-### Optional Step 5. Canceling Keepers
+The above Upkeep transaction can also be found here:&#x20;
 
-The final step is for canceling Keepers. Canceling Keepers consists of two parts:
+{% embed url="https://keepers.chain.link/bsc/61895360697707478624580988307616544952190176251316156526569833881526378957381" %}
+
+
+
+### Optional Step 5. Canceling Your Upkeep
+
+The final step is for canceling Upkeeps. Canceling your Upkeep consists of two parts:
 
 1. Cancel Upkeep
 2. Withdraw Funds
 
-We can start this step by going back to [https://keepers.chain.link/](https://keepers.chain.link/). Make sure your wallet is connected.
+We can start this step by going back to [https://automation.chain.link/bsc](https://automation.chain.link/bsc). Make sure your wallet is connected.
 
 <figure><img src="../../.gitbook/assets/5_Cancel_Keepers_01.png" alt=""><figcaption><p>Click on "Actions", and then "Cancel upkeep".</p></figcaption></figure>
 
