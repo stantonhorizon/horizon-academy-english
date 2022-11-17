@@ -4,10 +4,6 @@ description: Use Chainlink Automation to Auto-Claim
 
 # Setting Up Chainlink Automation
 
-{% hint style="danger" %}
-This guide is not ready to be used yet, as we are still fleshing out a feel final details with Chainlink. If you have any questions, please let us know in the Telegram Channel.
-{% endhint %}
-
 Welcome to the Guide for using Chainlink Automation to auto-claim your weekly staking rewards on Horizon Genesis.
 
 The following guide will take you through the process of setting Chainlink Automation up (screenshots from 2022.09.18).
@@ -68,11 +64,7 @@ In the meantime, please scroll down a little to see instructions for authorizati
 
 <figure><img src="../../.gitbook/assets/Authorize - Connected - With Inputs - Full Data.png" alt=""><figcaption><p>Add the wallet/contract address to authorize and select what permissions to give it. Below in "Manage Authorizations", you can see all permissions that have been given out previously with the ability to remove these permissions at any time. </p></figcaption></figure>
 
-In the meantime, before the "Authorize" tab is built, you can activate authorization by going to:&#x20;
-
-{% embed url="https://bscscan.com/address/0x9657a0FD98e88464E1159d98b517A4945dbFBFC8" %}
-
-<figure><img src="../../.gitbook/assets/0_Grant_Permission_BSCScan_02.png" alt=""><figcaption><p>Click on "Contract" (where the green checkmark is) to see the above page. Link your wallet by clicking "Connect to Web3". Once connected, it should show a green dot and say "Connected - Web3" with your wallet address behind it. Input the contract address to "4. approveClaimOnBehalf" and then click "Write".</p></figcaption></figure>
+You should get a wallet confirmation screen as shown below.
 
 <figure><img src="../../.gitbook/assets/0_Grant_Permission_BSCScan_03.png" alt=""><figcaption><p>Your wallet will ask you to confirm.</p></figcaption></figure>
 
