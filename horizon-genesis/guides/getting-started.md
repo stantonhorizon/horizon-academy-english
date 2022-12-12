@@ -41,7 +41,6 @@ You can buy HZN via the following exchanges:
 
 * [MXC Spot Exchange](https://www.mexc.com/exchange/HZN\_USDT)
 * [MXC Margin/Leverage Exchange (5x)](https://www.mexc.com/margin/HZN\_USDT)
-* [Hoo Spot Exchange](https://hoo.com/innovation/hzn-usdt)
 
 ## 3. Earn Rewards by Staking and Minting
 
