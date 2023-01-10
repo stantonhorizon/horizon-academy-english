@@ -6,6 +6,7 @@
 
 * [Introduction](horizon-protocol/introduction/README.md)
   * [Tokenomics](horizon-protocol/introduction/tokenomics.md)
+  * [Business Model](horizon-protocol/introduction/business-model.md)
   * [Security Audit](horizon-protocol/introduction/security-audit.md)
 * [Synthetic Assets - zAssets](horizon-protocol/synthetic-assets-zassets.md)
 * [Community Driven](horizon-protocol/community-driven/README.md)
@@ -49,7 +50,7 @@
 
 ## Educational Articles
 
-* [What are DeFi Derivatives and how are they used](educational-articles/what-are-defi-derivatives-and-how-are-they-used.md)
-* [Defi Derivative Projects](educational-articles/defi-derivative-projects.md)
-* [A Brief History of Synthetic Assets and Financial Derivatives](educational-articles/a-brief-history-of-synthetic-assets-and-financial-derivatives.md)
 * [Glossary and Definitions](educational-articles/glossary-and-definitions.md)
+* [What are DeFi Derivatives and how are they used](educational-articles/what-are-defi-derivatives-and-how-are-they-used.md)
+* [A Brief History of Synthetic Assets and Financial Derivatives](educational-articles/a-brief-history-of-synthetic-assets-and-financial-derivatives.md)
+* [Defi Derivative Projects](educational-articles/defi-derivative-projects.md)
