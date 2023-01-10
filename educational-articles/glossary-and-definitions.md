@@ -1,6 +1,6 @@
 # Glossary and Definitions
 
-This will be a list of definitions that we will gradually add on to to help readers understand the various terms.
+This will be a list of definitions that we will gradually add on to help readers understand the various terms.
 
 ### Synthetic Assets
 
