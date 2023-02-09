@@ -1,58 +1,65 @@
 ---
-description: Latest update - October 7, 2022
+description: Latest update - January 27th, 2023
 ---
 
-# Roadmap
+# Roadmap & Achievements
 
-<figure><img src="../../.gitbook/assets/roadmap update 1.3 (1).png" alt=""><figcaption><p>Horizon Protocol Roadmap Update - October 7, 2022</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Roadmap Achievements.png" alt=""><figcaption><p>Roadmap &#x26; Achievements (2021-2023)</p></figcaption></figure>
 
-## Ongoing
+## Areas of importance we plan to focus on in 2023: <a href="#08ea" id="08ea"></a>
 
-* UI/UX Upgrades
-* Adding new zAssets
-* Implementation of [HIPs](../community-driven/hips/)
+* Increase open market liquidity/access points for HZN and zAssets
+* Increase product usability and usage
+* Increase project awareness
+* Improve protocol utility
+* Improve protocol robustness
+* Continue our longstanding focus on security
 
-These are items that essentially never end. zAssets will keep getting added on Horizon Exchange. The user-interface and user-experience will continuously improve depending on the feedback we get from our community.
+## **Tech Roadmap** <a href="#b416" id="b416"></a>
 
-## Coming Up in Q3 2022
+On the tech front our objectives can be broken down into 3 sections:
 
-* Horizon Exchange **\[COMPLETED and LIVE]**
-* Horizon Genesis 2.0 **\[COMPLETED and LIVE]**
-* Horizon Dashboard 1.5 — Testnet / Mainnet
-* Horizon Academy Beta **\[COMPLETED and LIVE]**
-* Chainlink Keeper integration
+* Smart Contracts
+* Front End
+* Security Audit
 
-Besides the ongoing tasks, these are the items that we’re currently focused on getting delivered in Q2. Below we will briefly explain each item.
+### Smart Contracts <a href="#1ecb" id="1ecb"></a>
 
-## Horizon Academy Beta <a href="#1976" id="1976"></a>
+Mentioned in our [previous tech updates](https://horizonprotocol.medium.com/tech-update-4bcb8c9f1a2c), a major focus this year is to launch a decentralized perpetual futures exchange where users can trade using leverage while having competitive fees and no slippage. We are very excited for this feature as it will greatly support the Horizon Protocol business model in generating fees for HZN stakers and greatly improve the utility and volume usage of the protocol.
 
-As our products expand, so will our docs. Our current [docs](https://docs.horizonprotocol.com/) won’t be able to host everything that we have planned, while keeping them comprehensible for the reader. This is why we want to introduce Horizon Academy. Horizon Academy is a knowledge base for all things related to Horizon Protocol. Definitions, explanations, tutorials, FAQs, will all be added and linked to Horizon Academy for easy access.
+To address the open market liquidity of zAssets challenge, new ways of collateralizing them is required to increase their circulating supply. With the planned introduction of [collateralized loans](https://academy.horizonprotocol.com/horizon-protocol/introduction/business-model#interests-via-zasset-loans-and-shorts) and [token wrappers](https://academy.horizonprotocol.com/horizon-protocol/introduction/business-model#wrap-unwrap-fees-for-token-wrappers), users will be able to acquire zAssets using other crypto assets more economically than staking HZN. These features will also increase opportunities for arbitrageurs to profit off of open-market price deviations.
 
-## In the Pipeline
+* For loans, users will be able to unlock more potential with their assets by leveraging them to borrow zUSD at 150% C-Ratio or higher, allowing them to acquire more zAssets with the same collateral and potentially using the borrowed funds to generate additional returns.
+* With token wrappers, users will be able to directly convert their crypto assets into their zAsset equivalents at a 1:1 basis (100% C-Ratio without risk of liquidation), making for the most efficient way possible to collateralize zAssets.
 
-* Collateralized zAsset Shorting
-* zBaskets (Market Index zAssets)
-* Trading Competitions / Social Trading
-* Add new zAsset collateral options/wrappers
-* Integrate Chainlink Keepers
-* Bridge to ETH and incentivize staking pools on Uniswap
-* Horizon Governance (HIPs) 1.0
-* Perpetual Futures Trading 1.0
-* Options Trading 1.0
-* … many more!
+The implementation of dynamic trading fees will revolutionize protocol usage and unprecedented partnership opportunities by allowing the removal of the waiting period after each trade and eliminating oracle front running opportunities during periods of high price volatility.
 
-These are items that are planned to be added to Horizon Protocol after we complete our current objectives. As time goes on, these items will be moved into our active quarter goals when we get there. These items are in no particular order, so we are eager to hear what excites you guys the most or if there are items that are not on the list that should be, please let us know!
+### Other new features that are being investigated and/or developed (not in any particular order): <a href="#31ae" id="31ae"></a>
 
-## Completed
+* Introduce market basket/indices tokens (such as an NFT basket)
+* Allow the correction of the C-Ratio to be automated when claiming each week to allow for a complete stake-and-forget experience
+* Introduce Limit Orders (create orders that are executed at a specific price)
+* Introduce Stop Losses (create orders that close your position at a specific price)
+* Reduce trading fees by exploring other decentralized oracles
+* Improve the protocol liquidation mechanism to allow more users to participate in keeping the network healthy
+* Simplifying user debt tracking
+* Introduce tools for users to hedge the debt pool and to reduce their C-Ratio volatility
 
-* Horizon [Dashboard](https://dashboard.horizonprotocol.com) 1.5 (Mainnet)\
-  Improved UI/UX and provide the additional global portfolio data to HZN stakers and traders
-* Horizon [Genesis](https://genesis.horizonprotocol.com) 2.0 (Mainnet)\
-  Improved UI/UX with debt tracking analytics, escrow rewards tracking, and history.
-* Horizon [Exchange](https://exchange.horizonprotocol.com) 1.0 (Mainnet)
-* Horizon Staker + 3 Pools
-* PancakeSwap IFO
-* Horizon Protocol Smart Contract Deployment (Mainnet)
-* Litepaper
+### Front End: <a href="#735a" id="735a"></a>
 
-This shows everything that has been completed thus far. Expect this to become a whole lot more!
+To address product usage challenges, a key part is improving the new user onboarding process and user experience. We noticed a limitation to this is occurring due to the fragmentation of all the product and services that users are required to use before they can start trading or staking (i.e. first buying HZN on PancakeSwap, then staking HZN to mint zUSD on Horizon Genesis, then trading zUSD on Horizon Exchange), they must go through 3 different websites with many steps in between to achieve this.
+
+By creating a unified product/frontend that combines Horizon [Genesis](https://genesis.horizonprotocol.com/), [Exchange](https://exchange.horizonprotocol.com/), and [Dashboard](https://dashboard.horizonprotocol.com/) with a built-in Pancake/Ellipsis DEX frontend, we can make it easier than ever for users to access and utilize [HZN](https://academy.horizonprotocol.com/horizon-protocol/synthetic-assets-zassets#how-does-horizon-protocol-create-synthetic-assets), [zUSD](https://academy.horizonprotocol.com/horizon-protocol/synthetic-assets-zassets#zusd), and [zBNB](https://academy.horizonprotocol.com/horizon-protocol/synthetic-assets-zassets#zassets). This streamlined user journey will make it simpler and faster to get the most out of the protocol, and help remove significant user friction. A one-product redesign can not only improve the user experience, but also provide the opportunity to more easily scale new features such as adding in new front ends for Futures, Loans and Wrappers.
+
+Lastly, if there is interest from the community, there are also opportunities to integrate additional onramps into our protocol by adding an interface that allows crypto holders from other chains to bridge into BNB Chain and buy HZN directly as well as possible fiat onramps via bank/credit cards.
+
+### Security Audit
+
+While our current protocol [has already been audited,](https://academy.horizonprotocol.com/horizon-protocol/introduction/security-audit) we are taking extra precautions to ensure the security of our users by contracting a secondary audit to review all the changes we are making. We will not launch on the mainnet until we are confident that all aspects of the protocol have been thoroughly tested and audited.\
+
+
+## **Where We Are At and Next Steps** <a href="#a246" id="a246"></a>
+
+Our successful and secure deployment of the core products of the protocol (Genesis, Exchange, Dashboard) has enabled us to move forward with expanding the utility and usage of the protocol, creating new use cases and reducing friction.
+
+In 2023, we are thrilled to be building the next evolution of Horizon Protocol’s product ecosystem and are committed to deploying the new contracts and updated front ends to the testnet as early as Q2 (timeline is subject to change). With the Testnet, users will be able to play and test for themselves what’s in store for Horizon Protocol while we battle test the contracts and undergo a thorough security audit to ensure maximum security. Once the audit and the public testnet phase has completed, we look forward to launching everything on the mainnet!

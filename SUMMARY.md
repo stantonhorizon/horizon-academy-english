@@ -16,7 +16,7 @@
     * [HIP-3: Suspend zTSLA ahead of Stock Split](horizon-protocol/community-driven/hips/hip-3-suspend-ztsla-ahead-of-stock-split.md)
     * [HIP-2: Lower Target C-Ratio to 700%](horizon-protocol/community-driven/hips/hip-2-lower-target-c-ratio-to-700.md)
     * [HIP-1: Create incentivized zBNB/BNB pool](horizon-protocol/community-driven/hips/hip-1-create-incentivized-zbnb-bnb-pool.md)
-* [Roadmap](horizon-protocol/roadmap/README.md)
+* [Roadmap & Achievements](horizon-protocol/roadmap/README.md)
   * [Current Feature Requests](horizon-protocol/roadmap/current-feature-requests.md)
 
 ## Horizon Genesis
