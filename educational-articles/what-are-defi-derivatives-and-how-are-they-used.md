@@ -8,7 +8,7 @@ Decentralized Financial Derivatives, or defi derivatives, are financial derivati
 
 ## What are Financial Derivatives?
 
-Financial derivatives are the most traded phenomenon on the face of the earth and the derivatives market is the single greatest financial market in the world, dwarfing all others. The derivatives market has an estimated high-end value of as much as $1 quadrillion ($1,000,000,000,000) dollars, whereas the market cap of all of the stock markets in the world combined add up to a paltry $90 trillion dollars. What we're trying to express here is that there are a lot of derivatives and a lot of value in them.
+Financial derivatives are the most traded phenomenon on the face of the earth and the derivatives market is the single greatest financial market in the world, dwarfing all others. The derivatives market has an estimated high-end value of as much as $1 quadrillion ($1,000,000,000,000,000) dollars, whereas the market cap of all of the stock markets in the world combined add up to a paltry $90 trillion dollars. What we're trying to express here is that there are a lot of derivatives and a lot of value in them.
 
 The idea behind derivatives is simple. Derivatives are contracts that state or establish an agreement between parties to buy, sell, or trade an asset on or before a specified date. The four common derivatives are **options, forwards, futures, and swaps**.
 
@@ -16,7 +16,7 @@ The idea behind derivatives is simple. Derivatives are contracts that state or e
 
 There are typically two main uses for derivatives:
 
-* Hedging - where the parties are trying to mitigate or insure against volatile price swings&#x20;
+* Hedging - where the parties are trying to mitigate or insure against volatile price swings
 * Speculating - where traders take on higher risk bets, often leaning towards gambling
 
 Both these use cases require the creation of additional contracts and marketplaces that leverage the value and price movement of an underlying asset.
@@ -29,7 +29,7 @@ A classic example of hedging is in commodities involving **a wheat farmer and th
 
 This contract is then tradable in the futures market. Traders who believe that the market for wheat at that time will be higher than the value of the wheat futures contract that this farmer sold will be interested in purchasing this contract so they can make a profit off the difference. If the market ends up showing that the price of wheat has dipped and will be less than the contract amount, then the farmer has protect themselves and will still make the contract amount.
 
-By leveraging futures and hedging, the farmer has guaranteed the price he would sell his wheat in spring by giving up on the possibility of selling his wheat for more money during the fall.&#x20;
+By leveraging futures and hedging, the farmer has guaranteed the price he would sell his wheat in spring by giving up on the possibility of selling his wheat for more money during the fall.
 
 ### Speculating
 
@@ -66,4 +66,3 @@ Horizon Protocol is set up for the creation and trading of defi derivatives.
 Horizon Protocol's mission is to become a borderless financial market for synthetic assets, a defi derivatives program designed to be used by everybody. Horizon Protocol focuses on easy access to financial exposure to assets around the world, designs that facilitate use and understanding of defi derivatives and synthetic assets, and education towards financial opportunity for the everyday man and woman.
 
 Learn more about how to get started by joining us on [Twitter](https://twitter.com/HorizonProtocol), [Telegram](https://t.me/HorizonProtocol), and [Discord](https://discord.gg/SaDKvkbQF2). If you want to get started, check out [Horizon Genesis](https://genesis.horizonprotocol.com/) to mint and earn and [Horizon Exchange](https://exchange.horizonprotocol.com/) to trade.
-
