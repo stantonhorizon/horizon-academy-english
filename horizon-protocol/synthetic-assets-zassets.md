@@ -26,7 +26,7 @@ For stability, incentives are in place to make sure stakers actively participate
 
 Synthetic Assets produced on Horizon Protocol are called zAssets. For example, Bitcoin (BTC) would be called zBTC and Apple (APPL) stock would be called zAPPL.
 
-<figure><img src="../.gitbook/assets/zAssets.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/List of zAssets.png" alt=""><figcaption></figcaption></figure>
 
 ## zUSD <a href="#zusd" id="zusd"></a>
 
