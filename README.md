@@ -29,3 +29,5 @@ We have recently started our podcast, Horizon DeFi Podcast, where we explore DeF
 * [Apple Podcasts](https://podcasts.apple.com/us/podcast/defi-horizon-podcast/id1641743282)
 * [Spotify](https://open.spotify.com/show/1x4ipif0fqSWu18kkVmCp4)
 * [YouTube](https://youtu.be/-CysJsF2Xwg)
+
+<figure><img src=".gitbook/assets/Horizon Products.png" alt=""><figcaption></figcaption></figure>
