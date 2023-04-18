@@ -4,7 +4,7 @@ Horizon Protocol bridges the products of traditional financial markets and bring
 
 Synthetic assets are tokenized derivatives, which are contracts that represent the underlying value of an asset, without requiring actually holding the asset itself.
 
-Synthetic assets can be stocks, tokens, indices, NFTs, or other financial products and are produced to mimic the original asset, typically in the form of its price. For example, a synthetic asset of a stock would mimic the price fluctuations of the stock, while a synthetic asset of a token would mimic the price fluctuations of the token.&#x20;
+Synthetic assets can be stocks, tokens, indices, NFTs, or other financial products and are produced to mimic the original asset, typically in the form of its price. For example, a synthetic asset of a stock would mimic the price fluctuations of the stock, while a synthetic asset of a token would mimic the price fluctuations of the token.
 
 Synthetic assets, known as a “zAssets” on Horizon Protocol, can track the price movement and risk reward profiles of traditional assets such as equities or stocks, commodities like gold and oil, currencies like the US dollar or Euro, crypto assets such as Bitcoin, Ethereum, and NFTs, and even baskets of multiple assets, like index funds or ETFs. Horizon Protocol’s very first “zAsset” is the “zUSD”, a stable coin tied to the value of the US Dollar.
 
@@ -25,6 +25,8 @@ For stability, incentives are in place to make sure stakers actively participate
 ## zAssets
 
 Synthetic Assets produced on Horizon Protocol are called zAssets. For example, Bitcoin (BTC) would be called zBTC and Apple (APPL) stock would be called zAPPL.
+
+<figure><img src="../.gitbook/assets/zAssets.png" alt=""><figcaption></figcaption></figure>
 
 ## zUSD <a href="#zusd" id="zusd"></a>
 
