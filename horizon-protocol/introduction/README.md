@@ -35,6 +35,8 @@ The Horizon Protocol Ecosystem consists of two main parts:
 * [Horizon Genesis](../../horizon-genesis/introduction.md), for creating synthetic assets, and
 * [Horizon Exchange](../../horizon-exchange/introduction.md), for trading synthetic assets.
 
+<figure><img src="../../.gitbook/assets/Horizon Protocol Ecosystem.png" alt=""><figcaption></figcaption></figure>
+
 ## Security Audit
 
 Security and safety of the protocol is of the utmost importance.
