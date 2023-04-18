@@ -14,6 +14,8 @@ Forked from Synthetix, Horizon Protocol will leverage the time-tested derivative
 
 Learn more about Horizon Protocol by going to the [Horizon Protocol website](https://horizonprotocol.com/).
 
+<figure><img src="../../.gitbook/assets/Horizon Protocol Overview.png" alt=""><figcaption></figcaption></figure>
+
 ## Why Horizon Protocol?
 
 * Built on the BSC for faster, cheaper, scalable transactions

@@ -78,7 +78,7 @@ There is a 24 hour 'Burn Lock' after a user mints zUSD, where the user cannot bu
 * **Debt**\
   The amount of debt the user currently has (and the amount of debt the user has after burning).
 * **Staked**\
-  ****The amount of HZN that is currently staked (and the amount of HZN staked after burning).
+  The amount of HZN that is currently staked (and the amount of HZN staked after burning).
 * **Transferrable**\
   The amount of HZN that is currently not staked (and the amount of HZN not staked after burning).
 * **BURN NOW (button)**\
