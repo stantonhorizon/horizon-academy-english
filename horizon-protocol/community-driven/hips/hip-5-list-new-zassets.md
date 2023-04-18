@@ -6,7 +6,7 @@ description: Add new zAssets to Horizon Exchange
 
 **Type:** Horizon Improvement Proposal\
 **Date:** September 16th, 2022\
-**Status:** Draft 1
+**Status:** Draft 1  | Completed
 
 ## Summary
 

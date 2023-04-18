@@ -8,7 +8,7 @@ description: >-
 
 **Type:** Horizon Improvement Proposal\
 **Date:** August 30th, 2022\
-**Status:** Draft 1
+**Status:** Draft 1  | Completed
 
 ## Summary
 
