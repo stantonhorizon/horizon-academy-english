@@ -44,3 +44,5 @@ _**Coming Soon**_
 Horizon Protocol is building towards allowing for additional methods of establishing collateral in the protocol. Currently, the main form of collateral is zUSD, which is minted via Horizon Genesis, but in the future, Horizon Protocol will allow for the wrapping of other tokens into zAssets.
 
 The action of wrapping and unwrapping token wrappers will include a small fee, which will be revenue-generating for the protocol's stakers.
+
+<figure><img src="../../.gitbook/assets/Growth Stratgy.png" alt=""><figcaption></figcaption></figure>
