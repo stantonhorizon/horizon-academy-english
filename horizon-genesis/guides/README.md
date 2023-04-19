@@ -11,3 +11,5 @@ Check out the following Guides:
 * [Setting up Chainlink Automation](setting-up-chainlink-automation.md) (for Auto-Claim)
 
 If there are other guides you would like to see, please connect with our Community Managers on Telegram: [Official Telegram Channel](https://t.me/HorizonProtocol).
+
+<figure><img src="../../.gitbook/assets/Staking Comparison.png" alt=""><figcaption><p>Please visit <a href="https://genesis.horizonprotocol.com/">Genesis</a> for the updated to date APY</p></figcaption></figure>
