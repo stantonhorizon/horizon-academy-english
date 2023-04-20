@@ -10,6 +10,8 @@ description: >-
 **Date:** August 30th, 2022\
 **Status:** Draft 1  | Completed
 
+<figure><img src="../../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+
 ## Summary
 
 Deploy a Keepers Upkeep contract and register a Keeper to automate the weekly fee period close.

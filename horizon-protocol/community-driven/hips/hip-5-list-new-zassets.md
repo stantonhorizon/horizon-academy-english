@@ -8,6 +8,8 @@ description: Add new zAssets to Horizon Exchange
 **Date:** September 16th, 2022\
 **Status:** Draft 1  | Completed
 
+<figure><img src="../../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+
 ## Summary
 
 Add the following new zAssets that can be longed on Horizon Exchange:&#x20;

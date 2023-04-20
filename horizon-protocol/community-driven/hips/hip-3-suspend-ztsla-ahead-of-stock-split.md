@@ -8,7 +8,7 @@ description: Suspend zTSLA ahead of their stock split on August 25th, 2022
 **Date:** August 13th, 2022\
 **Status:** Draft 1 | Completed
 
-![](../../../.gitbook/assets/Hip3.png)
+<figure><img src="../../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 ## Summary
 

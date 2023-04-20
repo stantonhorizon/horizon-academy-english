@@ -8,7 +8,7 @@ description: Create an incentivized zBNB/BNB Ellipsis stablecoin pool
 **Date:** May 12th, 2022\
 **Status:** Draft 2 | Completed
 
-![](../../../.gitbook/assets/Hip1.png)
+<figure><img src="../../../.gitbook/assets/1 (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Summary
 
