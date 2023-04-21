@@ -11,12 +11,12 @@
 * [Synthetic Assets - zAssets](horizon-protocol/synthetic-assets-zassets.md)
 * [Community Driven](horizon-protocol/community-driven/README.md)
   * [HIPs](horizon-protocol/community-driven/hips/README.md)
+    * [HIP-6: Lower Target C-Ratio to 600% from 700%](horizon-protocol/community-driven/hips/hip-6-lower-target-c-ratio-to-600-from-700.md)
     * [HIP-5: List New zAssets](horizon-protocol/community-driven/hips/hip-5-list-new-zassets.md)
     * [HIP-4: Use Keepers to Close Weekly Fee Periods](horizon-protocol/community-driven/hips/hip-4-use-keepers-to-close-weekly-fee-periods.md)
     * [HIP-3: Suspend zTSLA ahead of Stock Split](horizon-protocol/community-driven/hips/hip-3-suspend-ztsla-ahead-of-stock-split.md)
     * [HIP-2: Lower Target C-Ratio to 700%](horizon-protocol/community-driven/hips/hip-2-lower-target-c-ratio-to-700.md)
     * [HIP-1: Create incentivized zBNB/BNB pool](horizon-protocol/community-driven/hips/hip-1-create-incentivized-zbnb-bnb-pool.md)
-    * [HIP-6: Lower Target C-Ratio to 600% from 700%](horizon-protocol/community-driven/hips/hip-6-lower-target-c-ratio-to-600-from-700.md)
 * [Roadmap & Achievements](horizon-protocol/roadmap/README.md)
   * [Current Feature Requests](horizon-protocol/roadmap/current-feature-requests.md)
 
