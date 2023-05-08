@@ -4,7 +4,7 @@ description: Latest update - January 27th, 2023
 
 # Roadmap & Achievements
 
-<figure><img src="../../.gitbook/assets/Roadmap Achievements.png" alt=""><figcaption><p>Roadmap &#x26; Achievements (2021-2023)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/May update.png" alt=""><figcaption></figcaption></figure>
 
 ## Areas of importance we plan to focus on in 2023: <a href="#08ea" id="08ea"></a>
 
