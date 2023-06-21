@@ -8,7 +8,7 @@ description: Lower Target C-Ratio to 700% from 800%
 **Date:** May 12th, 2022\
 **Status:** Draft 2 | Completed
 
-<figure><img src="../../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Summary
 
