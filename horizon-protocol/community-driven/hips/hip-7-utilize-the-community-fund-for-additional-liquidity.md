@@ -52,7 +52,7 @@ Additional thoughts we should take into consideration:
 * The amount of HZN used is subject to the liquidity needs of the protocol while also not overexposing the community fund. 15 million HZN is proposed as a starting value that can be adjusted to be higher or lower as needed over time.
 * A specific wallet will be dedicated to staking the community fund.
 
-In preparation for HIP-10 where we provide liquidity on Wombat Exchange, we plan to use the zAssets obtained from staking the Community Fund to provide liquidity in the form of zUSD and zBNB. zUSD and zBNB are dominant assets in [the global debt pool](https://dashboard.horizonprotocol.com/#zasset), but the additional zUSD and zBNB from the Community Fund might affect the token distribution in the global debt pool. If there are any changes in the global debt pool, the approach can be adjusted accordingly to align with the token distribution in the global debt pool.
+In preparation for [HIP-10](hip-10-use-zassets-from-community-fund-staking-to-provide-liquidity-on-wombat-exchange.md) where we provide liquidity on Wombat Exchange, we plan to use the zAssets obtained from staking the Community Fund to provide liquidity in the form of zUSD and zBNB. zUSD and zBNB are dominant assets in [the global debt pool](https://dashboard.horizonprotocol.com/#zasset), but the additional zUSD and zBNB from the Community Fund might affect the token distribution in the global debt pool. If there are any changes in the global debt pool, the approach can be adjusted accordingly to align with the token distribution in the global debt pool.
 
 &#x20;
 

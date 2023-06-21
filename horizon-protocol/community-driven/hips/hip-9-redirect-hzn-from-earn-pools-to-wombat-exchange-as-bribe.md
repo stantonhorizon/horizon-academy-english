@@ -31,7 +31,7 @@ Furthermore, liquidity providers who earn WOM will also have the opportunity to 
 The main motivation is to incentivize greater liquidity for our zAsset pairs on Wombat Exchange and increase the incentives for liquidity providers by using Wombat Exchange’s incentive system. For the same HZN that is currently being distributed in Earn, an equivalent or greater value in WOM will be distributed to liquidity providers and the HZN itself can also be earned by voting for our pool using their governance token, veWOM, which you get by staking WOM.
 
 \
-Lastly, as proposed in HIP-10, a portion of the HZN distributed as bribes could be mined by the protocol, which can flow back to the community fund, and help alleviate increases to the [circulating supply of HZN](https://dashboard.horizonprotocol.com/#staking).
+Lastly, as proposed in [HIP-10](hip-10-use-zassets-from-community-fund-staking-to-provide-liquidity-on-wombat-exchange.md), a portion of the HZN distributed as bribes could be mined by the protocol, which can flow back to the community fund, and help alleviate increases to the [circulating supply of HZN](https://dashboard.horizonprotocol.com/#staking).
 
 ## Potential Risks
 

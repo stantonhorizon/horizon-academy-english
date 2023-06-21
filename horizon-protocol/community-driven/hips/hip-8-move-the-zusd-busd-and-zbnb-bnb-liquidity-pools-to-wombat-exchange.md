@@ -35,7 +35,7 @@ Wombat Exchange will also allow pairing zUSD with more than one stablecoin, open
 
 Furthermore, token pairs on Wombat Exchange will be tradable through DEX aggregators such as [1INCH](https://coinmarketcap.com/alexandria/article/what-is-1inch-1inch), making our tokens more easily accessible in the broader DeFi ecosystem.&#x20;
 
-The specifics of how the new incentive programs will be implemented will be proposed in HIP-9.
+The specifics of how the new incentive programs will be implemented will be proposed in [HIP-9](hip-9-redirect-hzn-from-earn-pools-to-wombat-exchange-as-bribe.md).
 
 
 
@@ -43,7 +43,7 @@ The specifics of how the new incentive programs will be implemented will be prop
 
 The implementation of this HIP might come with some risks, including the following:
 
-* During the transition of liquidity to the new pools, there could be a period of limited liquidity for these pairs until the majority of the LPs migrate. HIP-7 will propose a way to mitigate this by using some of the [community funds](https://academy.horizonprotocol.com/horizon-protocol/introduction/tokenomics#horizon-protocol-supply-and-inflation-policy) to supply liquidity.
+* During the transition of liquidity to the new pools, there could be a period of limited liquidity for these pairs until the majority of the LPs migrate. [HIP-7](hip-7-utilize-the-community-fund-for-additional-liquidity.md) will propose a way to mitigate this by using some of the [community funds](https://academy.horizonprotocol.com/horizon-protocol/introduction/tokenomics#horizon-protocol-supply-and-inflation-policy) to supply liquidity.
 * Wombat is a newer exchange, relative to other DEXs, so it is not as time-tested.
 
 ## Considerations
