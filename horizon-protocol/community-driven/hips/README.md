@@ -14,7 +14,8 @@ N/A
 
 ## Completed Proposals
 
-* [HIP-5: List New zAssets](hip-5-list-new-zassets.md)
+* [HIP-6: Lower Target C-Ratio to 600% from 700%](hip-6-lower-target-c-ratio-to-600-from-700.md)
+* [HIP-5: List New zAssets](hip-5-list-new-zassets.md)&#x20;
 * [HIP-4: Use Keepers to Close Weekly Fee Periods](hip-4-use-keepers-to-close-weekly-fee-periods.md)
 * [HIP-3: Suspend zTSLA ahead of Stock Split](hip-3-suspend-ztsla-ahead-of-stock-split.md)
 * [HIP-2: Lower Target C-Ratio to 700%](hip-2-lower-target-c-ratio-to-700.md)
