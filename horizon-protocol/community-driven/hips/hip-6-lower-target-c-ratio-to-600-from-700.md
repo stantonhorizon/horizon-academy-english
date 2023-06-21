@@ -2,7 +2,7 @@
 
 **Type:** Horizon Improvement Proposal\
 **Date:** Apr 19th, 2023 Status: Draft 1 \
-**Status:** Draft 1
+**Status:** Draft 1 | Completed
 
 <figure><img src="../../../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
 

@@ -11,6 +11,7 @@
 * [Synthetic Assets - zAssets](horizon-protocol/synthetic-assets-zassets.md)
 * [Community Driven](horizon-protocol/community-driven/README.md)
   * [HIPs](horizon-protocol/community-driven/hips/README.md)
+    * [HIP-7: Utilize the Community Fund for Additional Liquidity](horizon-protocol/community-driven/hips/hip-7-utilize-the-community-fund-for-additional-liquidity.md)
     * [HIP-6: Lower Target C-Ratio to 600% from 700%](horizon-protocol/community-driven/hips/hip-6-lower-target-c-ratio-to-600-from-700.md)
     * [HIP-5: List New zAssets](horizon-protocol/community-driven/hips/hip-5-list-new-zassets.md)
     * [HIP-4: Use Keepers to Close Weekly Fee Periods](horizon-protocol/community-driven/hips/hip-4-use-keepers-to-close-weekly-fee-periods.md)
