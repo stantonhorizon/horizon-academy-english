@@ -23,6 +23,7 @@
     * [HIP-1: Create incentivized zBNB/BNB pool](horizon-protocol/community-driven/hips/hip-1-create-incentivized-zbnb-bnb-pool.md)
 * [Roadmap & Achievements](horizon-protocol/roadmap/README.md)
   * [Current Feature Requests](horizon-protocol/roadmap/current-feature-requests.md)
+* [Brand Assets](horizon-protocol/brand-assets.md)
 
 ## Horizon Genesis
 
