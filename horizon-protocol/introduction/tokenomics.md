@@ -23,7 +23,7 @@ An initial launch supply of 100,000,000 HZN will be minted upon launch of Horizo
 
 * **10% (10,000,000 HZN)** will be reserved for the [IFO on PancakeSwap](https://horizonprotocol.medium.com/horizon-protocol-hzn-initial-distribution-via-pancakeswap-ifo-v2-0-f77fcfe0ea).
 * **30% (30,000,000 HZN)** will be reserved for Liquidity Mining (PHB, HZN, HZN-BNB LP) purposes.
-* **60% (60,000,000 HZN)** will be reserved for the Ecosystem & Community Fund.
+* **60% (60,000,000 HZN)** will be reserved for the [Ecosystem & Community Fund](https://bscscan.com/address/0x5a7e0E29A6cCFaFfc34739005002B316cD42debC): 0x5a7e0E29A6cCFaFfc34739005002B316cD42debC
 
 Initially, only the 10% IFO allocation will be circulating in the market, followed by the Liquidity Mining allocation, expected to be released over the course of a year. The Ecosystem & Community Fund will NOT be initially circulating and will be used to support the protocol and community via stabilization of synthetic asset collateralization, market making for synthetic assets, protocol grants, bounties, partnerships, marketing and other community incentives. There is no team or investor allocation.
 
