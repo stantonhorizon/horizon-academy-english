@@ -11,9 +11,9 @@ Horizon Protocol aims to become a fully functioning DAO. We strongly believe tha
 ## Active Proposals
 
 * [HIP-7: Utilize the Community Fund for Additional Liquidity](hip-7-utilize-the-community-fund-for-additional-liquidity.md)
-* [HIP-8: Move the zUSD-BUSD and zBNB-BNB Liquidity Pools to Wombat Exchange](http://127.0.0.1:5000/s/wJEKVSTIgUQPjGA0bKQW/)
-* [HIP-9: Redirect HZN from EARN Pools to Wombat Exchange as ‘Bribes’](http://127.0.0.1:5000/s/wJEKVSTIgUQPjGA0bKQW/)
-* [HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat Exchange](http://127.0.0.1:5000/s/wJEKVSTIgUQPjGA0bKQW/)
+* [HIP-8: Move the zUSD-BUSD and zBNB-BNB Liquidity Pools to Wombat Exchange](hip-8-move-the-zusd-busd-and-zbnb-bnb-liquidity-pools-to-wombat-exchange.md)
+* [HIP-9: Redirect HZN from EARN Pools to Wombat Exchange as ‘Bribes’](hip-9-redirect-hzn-from-earn-pools-to-wombat-exchange-as-bribe.md)
+* [HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat Exchange](hip-10-use-zassets-from-community-fund-staking-to-provide-liquidity-on-wombat-exchange.md)
 
 ## Completed Proposals
 
