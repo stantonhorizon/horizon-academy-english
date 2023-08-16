@@ -41,7 +41,7 @@ The implementation of this HIP might come with some risks, including the followi
 
 ## Considerations
 
-Additional thoughts we should take into consideration:Additional thoughts we should take into consideration:
+Additional thoughts we should take into consideration:
 
 * Add instructions on how to maximize our gains in Horizon Academy:\
   \
