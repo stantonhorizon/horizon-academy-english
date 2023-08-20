@@ -10,7 +10,7 @@ description: A primer on Horizon Genesis's interface.
 
 The Wallet status can be seen on the Mint, Burn, and Claim pages.
 
-![](../.gitbook/assets/hzn-docs-wallet.png)
+![](../../.gitbook/assets/hzn-docs-wallet.png)
 
 * **Current C-Ratio**\
   If the user has staked, their current C-Ratio is based on the following formula:\
@@ -38,7 +38,7 @@ The Wallet status can be seen on the Mint, Burn, and Claim pages.
 
 Mint zUSD by staking your HZN. This gives you a Collateralization Ratio (C-Ratio) and a debt, allowing you to earn weekly staking rewards.
 
-![Horizon Genesis - Mint Page](../.gitbook/assets/HorizonGenesis\_2\_Mint.png)
+![Horizon Genesis - Mint Page](../../.gitbook/assets/HorizonGenesis\_2\_Mint.png)
 
 * **Preset Strategies**\
   One click to select how much to mint; either 1100%, 900%, or 700% C-Ratio.
@@ -65,7 +65,7 @@ The user does not lose any HZN when burning. Burning zUSD while under 700% C-Rat
 
 There is a 24 hour 'Burn Lock' after a user mints zUSD, where the user cannot burn any zUSD. This is to prevent oracle front-running attacks on the network.
 
-![Horizon Genesis - Burn Page](../.gitbook/assets/HorizonGenesis\_3\_Burn.png)
+![Horizon Genesis - Burn Page](../../.gitbook/assets/HorizonGenesis\_3\_Burn.png)
 
 * **Preset Strategies**\
   One click to select how much to burn; either 1100%, 900%, or 700% C-Ratio.
@@ -88,7 +88,7 @@ There is a 24 hour 'Burn Lock' after a user mints zUSD, where the user cannot bu
 
 Claim rewards from staking HZN and minting zUSD. Claimed rewards are vested for 12 months from the claim date, but can be used to manage the current C-Ratio or staked again to compound rewards during that time.
 
-![Horizon Genesis - Claim Page](../.gitbook/assets/HorizonGenesis\_4\_Claim.png)
+![Horizon Genesis - Claim Page](../../.gitbook/assets/HorizonGenesis\_4\_Claim.png)
 
 * **Staking Rewards**\
   Rewards available to be claimed via staking.
@@ -107,20 +107,20 @@ Claim rewards from staking HZN and minting zUSD. Claimed rewards are vested for 
 
 Multiple liquidity pools where you can stake something other than HZN to earn additional HZN.
 
-![Horizon Genesis - Earn Page](../.gitbook/assets/HorizonGenesis\_5\_Earn.png)
+![Horizon Genesis - Earn Page](../../.gitbook/assets/HorizonGenesis\_5\_Earn.png)
 
 * **STAKE HZN-BNB LP**\
   Stake HZN-BNB LP (provide liquidity on PancakeSwap) to earn HZN.
 * **STAKE ZUSD-BUSD LP**\
   Stake ZUSD-BUSD LP (provide liquidity on PancakeSwap) to earn HZN.
 
-Learn more about Liquidity Pools [here](staking-on-horizon-genesis/earn-liquidity-pools.md).
+Learn more about Liquidity Pools [here](../staking-on-horizon-genesis/earn-liquidity-pools.md).
 
 ## Debt Tracker
 
 Allows users to track their total debt created via collateralizing their HZN.
 
-![Horizon Genesis 2.0 - Debt Tracker](<../.gitbook/assets/HorizonGenesis\_6\_Debt Tracker.png>)
+![Horizon Genesis 2.0 - Debt Tracker](<../../.gitbook/assets/HorizonGenesis\_6\_Debt Tracker.png>)
 
 * **Active Debt**\
   Current amount of debt held, taking into account the fluctuations of Global Debt.
@@ -139,7 +139,7 @@ Allows users to track their total debt created via collateralizing their HZN.
 
 Allows users to be able to keep track of how much of their HZN rewards are still in escrow.
 
-![Horizon Genesis 2.0 - Escrow Page](../.gitbook/assets/HorizonGenesis\_7\_Escrow.png)
+![Horizon Genesis 2.0 - Escrow Page](../../.gitbook/assets/HorizonGenesis\_7\_Escrow.png)
 
 * **Available HZN**\
   Current amount of HZN that can be unlocked from escrow.
@@ -154,7 +154,7 @@ Allows users to be able to keep track of how much of their HZN rewards are still
 
 Allows users to keep track of all transactions they have made on Horizon.
 
-![Horizon Genesis 2.0 - History Page](../.gitbook/assets/HorizonGenesis\_8\_History.png)
+![Horizon Genesis 2.0 - History Page](../../.gitbook/assets/HorizonGenesis\_8\_History.png)
 
 * **Type**\
   There are three types of transactions: Mint, Burn, and Claim.
