@@ -34,6 +34,7 @@
   * [Liquidation](horizon-genesis/staking-on-horizon-genesis/liquidation.md)
   * [Risks of Staking](horizon-genesis/staking-on-horizon-genesis/risks-of-staking.md)
   * [C-Ratio Strategies](horizon-genesis/staking-on-horizon-genesis/c-ratio-strategies.md)
+  * [Hedge your Portfolio](horizon-genesis/staking-on-horizon-genesis/hedge-your-portfolio.md)
   * [Earn: Liquidity Pools](horizon-genesis/staking-on-horizon-genesis/earn-liquidity-pools.md)
 * [Interfaces](horizon-genesis/interfaces/README.md)
   * [Account - Escrow](horizon-genesis/interfaces/account-escrow.md)
