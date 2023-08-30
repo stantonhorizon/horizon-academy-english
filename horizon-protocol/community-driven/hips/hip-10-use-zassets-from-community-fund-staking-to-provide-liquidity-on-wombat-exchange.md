@@ -39,7 +39,7 @@ The implementation of this HIP might come with some risks, including the followi
 
 Additional thoughts we should take into consideration:
 
-* Staking the zAssets from the community fund in Wombat might result in reduced WOM token rewards for other liquidity providers, but it is essential to prioritize maximizing liquidity for the overall benefit of the protocol. The primary objective is to ensure ample liquidity, which is crucial for the protocol's success. Additionally, any revenues generated through this process would significantly extend the protocol's runway, enabling it to achieve long-term objectives.
+* Staking the zAssets from the community fund in Wombat via Wombax might result in reduced WOM token rewards for other liquidity providers, but it is essential to prioritize maximizing liquidity for the overall benefit of the protocol. The primary objective is to ensure ample liquidity, which is crucial for the protocol's success. Additionally, any revenues generated through this process would significantly extend the protocol's runway, enabling it to achieve long-term objectives.
 
 ## Feedback & Questions
 

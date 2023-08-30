@@ -11,7 +11,7 @@
 * [Synthetic Assets - zAssets](horizon-protocol/synthetic-assets-zassets.md)
 * [Community Driven](horizon-protocol/community-driven/README.md)
   * [HIPs](horizon-protocol/community-driven/hips/README.md)
-    * [HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat via Wombex Finance](horizon-protocol/community-driven/hips/hip-10-use-zassets-from-community-fund-staking-to-provide-liquidity-on-wombat-via-wombex-finance.md)
+    * [HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat via Wombex Finance](horizon-protocol/community-driven/hips/hip-10-use-zassets-from-community-fund-staking-to-provide-liquidity-on-wombat-exchange.md)
     * [HIP-9: Redirect HZN from EARN Pools to Wombat Exchange as ‘Bribes’](horizon-protocol/community-driven/hips/hip-9-redirect-hzn-from-earn-pools-to-wombat-exchange-as-bribes.md)
     * [HIP-8: Move the zUSD-BUSD and zBNB-BNB Liquidity Pools to Wombat Exchange](horizon-protocol/community-driven/hips/hip-8-move-the-zusd-busd-and-zbnb-bnb-liquidity-pools-to-wombat-exchange.md)
     * [HIP-7: Utilize the Community Fund for Additional Liquidity](horizon-protocol/community-driven/hips/hip-7-utilize-the-community-fund-for-additional-liquidity.md)
