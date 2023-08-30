@@ -7,7 +7,7 @@ description: >-
 # HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat via Wombex Finance
 
 **Type:** Horizon Improvement Proposal \
-**Date:** JAug 29th, 2023\
+**Date:** Aug 29th, 2023\
 **Status:** Draft 2
 
 <figure><img src="../../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
