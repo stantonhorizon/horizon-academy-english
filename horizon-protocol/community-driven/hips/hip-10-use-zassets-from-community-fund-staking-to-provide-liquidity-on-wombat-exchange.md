@@ -14,7 +14,7 @@ description: >-
 
 ## Summary
 
-Should [HIP-7](hip-7-utilize-the-community-fund-for-additional-liquidity.md) and [HIP-9](hip-9-redirect-hzn-from-earn-pools-to-wombat-exchange-as-bribe.md) pass, the zAsset liquidity provided from the Community Fund staking ([HIP-7](hip-7-utilize-the-community-fund-for-additional-liquidity.md)) will automatically be generating [WOM tokens](https://docs.wombat.exchange/docs/tokenomics/about-wom#what-is-wom). This proposal aims to lay out how the WOM tokens will be utilized.
+Should [HIP-7](hip-7-utilize-the-community-fund-for-additional-liquidity.md) and [HIP-9](hip-9-redirect-hzn-from-earn-pools-to-wombat-exchange-as-bribes.md) pass, the zAsset liquidity provided from the Community Fund staking ([HIP-7](hip-7-utilize-the-community-fund-for-additional-liquidity.md)) will automatically be generating [WOM tokens](https://docs.wombat.exchange/docs/tokenomics/about-wom#what-is-wom). This proposal aims to lay out how the WOM tokens will be utilized.
 
 50% of the earned WOM tokens will be locked as veWOM for a period of 6-months and used to [vote to direct WOM token incentives for Horizon Protocol liquidity pools](https://docs.wombat.exchange/docs/getting-started/gauge-voting). WOM used in this way will also earn a portion of the HZN bribes, which will be redirected back to the community fund.
 
