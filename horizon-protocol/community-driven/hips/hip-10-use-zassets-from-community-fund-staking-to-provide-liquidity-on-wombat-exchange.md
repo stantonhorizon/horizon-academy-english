@@ -44,3 +44,22 @@ Additional thoughts we should take into consideration:
 ## Feedback & Questions
 
 Please ask your questions here.
+
+**Q: What’s Wombex?**\
+[Wombex](http://wombex.exchange) combines the power of liquidity providers and WOM token holders, supercharging each other and accelerating long-term Wombat growth. For this purpose, Wombex accumulates veWOM and aggregates LPs deposits simultaneously. For WOM holders, Wombex offers the opportunity to earn more on their WOM by staking WOM into wmxWOM (Wombex-owned veWOM).
+
+the top yield aggregator built on top of Wombat Finance.,&#x20;
+
+Wombex ranked #28 based on TVL locked in the Yeild category across all chains and #6 on the BNB Chain, current TVL 9.59M.
+
+
+
+**Q: What are the risks for staking in Wombex?**
+
+Wombex has been built with safety and security in mind. However, there are inherent risks when interacting with any DeFi smart contracts. Our contributors have vigorously reviewed its smart contracts, and also pursued external auditors to identify potential vulnerabilities in the platform prior to launch.
+
+However, there are certain risks of using Wombex that provide non-zero potential exposure to the risk of losing funds. These risks included:
+
+* Risks of BNB/Arbitrum Chain vulnerabilities/operational issues as the underlying L1 or blockchain risks
+* Risks of Wombat.exchange as underlying platform for Wombex operation since Wombex is tightly integrated with Wombat
+* Wallet Risks (Metamask, etc) and node infrastructure risks
