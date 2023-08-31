@@ -1,7 +1,7 @@
 ---
 description: >-
   Utilize Wombat Exchange’s incentive system to incentivize liquidity for
-  zUSD-USDC and zBNB-BNB pools in th
+  zUSD-USDC and zBNB-BNB pools in the form of WOM tokens
 ---
 
 # HIP-9: Redirect HZN from EARN Pools to Wombat Exchange as ‘Bribes’
