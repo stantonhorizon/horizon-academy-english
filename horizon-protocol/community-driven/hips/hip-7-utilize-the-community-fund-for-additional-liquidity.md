@@ -57,4 +57,4 @@ In preparation for HIP-10 where we provide liquidity on Wombat Exchange, we plan
 
 ## Feedback & Questions
 
-Please ask your questions here.
+Please ask your questions [here](https://t.me/HorizonProtocol).
