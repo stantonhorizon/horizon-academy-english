@@ -66,4 +66,4 @@ Additional thoughts we should take into consideration:
 
 ## Feedback & Questions
 
-Please ask your questions here.
+Please ask your questions [here](https://t.me/HorizonProtocol).
