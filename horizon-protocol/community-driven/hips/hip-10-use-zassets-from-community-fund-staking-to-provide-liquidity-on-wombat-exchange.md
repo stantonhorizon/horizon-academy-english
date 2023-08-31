@@ -43,7 +43,7 @@ Additional thoughts we should take into consideration:
 
 ## Feedback & Questions
 
-Please ask your questions here.
+Please ask your questions [here](https://t.me/HorizonProtocol).
 
 **Q: What’s Wombex?**\
 [Wombex](http://wombex.exchange) combines the power of liquidity providers and WOM token holders, supercharging each other and accelerating long-term Wombat growth. For this purpose, Wombex accumulates veWOM and aggregates LPs deposits simultaneously. For WOM holders, Wombex offers the opportunity to earn more on their WOM by staking WOM into wmxWOM (Wombex-owned veWOM).
@@ -56,10 +56,19 @@ Wombex ranked #28 based on TVL locked in the Yeild category across all chains an
 
 **Q: What are the risks for staking in Wombex?**
 
-Wombex has been built with safety and security in mind. However, there are inherent risks when interacting with any DeFi smart contracts. Our contributors have vigorously reviewed its smart contracts, and also pursued external auditors to identify potential vulnerabilities in the platform prior to launch.
+Wombex operates its contracts on Wombat Exchange's pools and gauge contracts, which are similar to vaults. For users of Wombex, the main risks to consider are the coverage ratio on pools for LPs (liquidity providers) and the potential for low bribe efficiency (if happens) on Wombat gauges.
 
-However, there are certain risks of using Wombex that provide non-zero potential exposure to the risk of losing funds. These risks included:
+Wombex actively participates on Wombat Exchange using its highest veWOM (Wombat governance token) and TVL (Total Value Locked) contribution. This activity allows them to earn WOM tokens as rewards for providing liquidity in LPs. Additionally, they add WMX rewards on top of this and share these rewards with the LPs.
 
-* Risks of BNB/Arbitrum Chain vulnerabilities/operational issues as the underlying L1 or blockchain risks
-* Risks of Wombat.exchange as underlying platform for Wombex operation since Wombex is tightly integrated with Wombat
-* Wallet Risks (Metamask, etc) and node infrastructure risks
+It's important to note that if the values of tokens decrease, there might be a lower risk in terms of rewards based on their USD value, but this risk is not spread out in a proportional emission manner. In simpler terms, the rewards might be impacted by token value changes, but not necessarily in a straightforward, proportional way.
+
+\
+**Q: How does Wombex approach security?**
+
+Wombex have three audits which are conducted by Peckshield, Zokyo, and Slowmist.&#x20;
+
+The Devs at Wombex take these audits very seriously. They wait for the results of these checks before introducing new contracts. The Devs are skilled with smart contracts and don't rush when adding new features. They continuously test things, and if they aren't completely sure and haven't seen results, they won't release any new features. This approach has kept them safe from security problems.
+
+On the community side, Wombex values user input. They gather feedback about both the technical aspects (contracts) and the user experience (UX-UI). The community is actively involved and shares their thoughts. The community team then sends this feedback to the Devs using a platform called GitHub. The Devs pay attention and fix mistakes or bugs based on the feedback. They also enhance the protocol according to the suggestions from the community.
+
+\
