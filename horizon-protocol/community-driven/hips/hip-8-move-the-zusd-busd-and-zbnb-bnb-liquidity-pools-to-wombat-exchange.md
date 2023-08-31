@@ -51,7 +51,7 @@ The implementation of this HIP might come with some risks, including the followi
 
 ## Considerations
 
-Additional thoughts we should take into consideration:Additional thoughts we should take into consideration:
+Additional thoughts we should take into consideration:
 
 **Why not move to PancakeSwap v3?**
 
