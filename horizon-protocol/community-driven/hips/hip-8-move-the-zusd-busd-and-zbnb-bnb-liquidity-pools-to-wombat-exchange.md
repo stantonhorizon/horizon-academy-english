@@ -65,7 +65,7 @@ Trading volume and liquidity have been migrating away from Ellipsis Finance and 
 
 ## Feedback & Questions
 
-Please ask your questions here.
+
 
 **Q: How does Wombat approach security?**
 
