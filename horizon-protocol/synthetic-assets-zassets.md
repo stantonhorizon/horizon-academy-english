@@ -39,7 +39,7 @@ On a smart contract level, Horizon Protocol​ will always value zUSD at $1.00 w
 The value of zUSD that exists on the open market (i.e. DEXs/CEXs) could fluctuate in price (based on supply/demand), but any price deviation from $1.00 would create arbitrage opportunities to profit between the open market and Horizon Protocol.
 
 \
-As per[ HIP-8,](https://academy.horizonprotocol.com/horizon-protocol/community-driven/hips/hip-8-move-the-zusd-busd-and-zbnb-bnb-liquidity-pools-to-wombat-exchange) the open market zUSD liquidity pool will exist and be incentivized on [Wombat Exchange’s multi-chain stableswap](https://www.wombat.exchange/).
+As per[ HIP-8,](https://academy.horizonprotocol.com/horizon-protocol/community-driven/hips/hip-8-move-the-zusd-busd-and-zbnb-bnb-liquidity-pools-to-wombat-exchange) the open market zUSD liquidity pool will exist and be incentivized on [Wombat Exchange’s multi-chain stableswap](https://app.wombat.exchange/pool?chain=bsc).
 
 zUSD also facilitates the trading of over 25 other zAssets across 4 real world market sectors, and are available on the Horizon Protocol under the “Trade” section
 
@@ -47,5 +47,5 @@ zUSD also facilitates the trading of over 25 other zAssets across 4 real world m
 
 zBNB is one of the 25+ synthetic assets (zAssets) backed by Horizon Protocol’s liquidity system. Because BNB is the native coin on Horizon Protocol’s home chain, as well as the most liquid asset on the BNB Chain, liquidity for zBNB was chosen and incentivized as a secondary on/off-ramp for users to get access to zAssets on the open market (zUSD being the primary). Furthermore, a secondary zAsset market is important for non-protocol participants to also access and arbitrage zAsset open market price deviations without actually having to collateralize the zAssets themselves through staking.
 
-As per [HIP-8](https://academy.horizonprotocol.com/horizon-protocol/community-driven/hips/hip-8-move-the-zusd-busd-and-zbnb-bnb-liquidity-pools-to-wombat-exchange), the open market zBNB liquidity pool will exist and be incentivized on [Wombat Exchange’s multi-chain stableswap](https://www.wombat.exchange/).
+As per [HIP-8](https://academy.horizonprotocol.com/horizon-protocol/community-driven/hips/hip-8-move-the-zusd-busd-and-zbnb-bnb-liquidity-pools-to-wombat-exchange), the open market zBNB liquidity pool will exist and be incentivized on [Wombat Exchange’s multi-chain stableswap](https://app.wombat.exchange/pool?chain=bsc).
 
