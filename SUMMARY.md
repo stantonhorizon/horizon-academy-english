@@ -31,6 +31,7 @@
 * [Staking on Horizon Genesis](horizon-genesis/staking-on-horizon-genesis/README.md)
   * [Mint, Burn, and Claim](horizon-genesis/staking-on-horizon-genesis/mint-burn-and-claim.md)
   * [Collaterialization and C-Ratio](horizon-genesis/staking-on-horizon-genesis/collaterialization-and-c-ratio.md)
+  * [Debt share (Testnet V2)](horizon-genesis/staking-on-horizon-genesis/debt-share-testnet-v2.md)
   * [Liquidation](horizon-genesis/staking-on-horizon-genesis/liquidation.md)
   * [Risks of Staking](horizon-genesis/staking-on-horizon-genesis/risks-of-staking.md)
   * [C-Ratio Strategies](horizon-genesis/staking-on-horizon-genesis/c-ratio-strategies.md)
