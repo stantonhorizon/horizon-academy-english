@@ -47,6 +47,7 @@
   * [Add Liquidity for HZN-BNB](horizon-genesis/guides/add-liquidity-for-hzn-bnb.md)
   * [Add Liquidity for zBNB-BNB](horizon-genesis/guides/add-liquidity-for-zbnb-bnb.md)
   * [Setting Up Chainlink Automation](horizon-genesis/guides/setting-up-chainlink-automation.md)
+  * [Adding Liquidity for zUSD and zBNB pools](horizon-genesis/guides/adding-liquidity-for-zusd-and-zbnb-pools.md)
 * [Genesis FAQ](horizon-genesis/genesis-faq.md)
 
 ## Horizon Exchange
