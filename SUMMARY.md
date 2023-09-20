@@ -45,7 +45,7 @@
   * [How to Stake on Genesis](horizon-genesis/guides/getting-started.md)
   * [Adding Liquidity for zUSD and zBNB pools](horizon-genesis/guides/adding-liquidity-for-zusd-and-zbnb-pools.md)
   * [Add Liquidity for HZN-BNB](horizon-genesis/guides/add-liquidity-for-hzn-bnb.md)
-  * [Add Liquidity for zUSD-BUSD](horizon-genesis/guides/add-liquidity-for-zusd-busd.md)
+  * [Remove LP Tokens for zUSD-BUSD Pool](horizon-genesis/guides/remove-lp-tokens-for-zusd-busd-pool.md)
   * [Setting Up Chainlink Automation](horizon-genesis/guides/setting-up-chainlink-automation.md)
 * [Genesis FAQ](horizon-genesis/genesis-faq.md)
 

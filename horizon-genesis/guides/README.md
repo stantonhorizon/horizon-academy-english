@@ -5,7 +5,7 @@ Welcome to the Guides section, where we will be creating guides on how to use an
 Check out the following Guides:
 
 * [How to Stake on Genesis](getting-started.md)
-* [Add Liquidity for zUSD-bUSD](add-liquidity-for-zusd-busd.md)
+* [Add Liquidity for zUSD-bUSD](remove-lp-tokens-for-zusd-busd-pool.md)
 * [Add Liquidity for HZN-BNB](add-liquidity-for-hzn-bnb.md)
 * [Add Liquidity for zBNB-BNB](broken-reference)
 * [Setting up Chainlink Automation](setting-up-chainlink-automation.md) (for Auto-Claim)
