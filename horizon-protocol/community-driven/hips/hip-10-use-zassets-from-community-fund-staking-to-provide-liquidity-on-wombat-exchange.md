@@ -14,7 +14,7 @@ description: >-
 
 ## Summary
 
-Should HIP-7 and HIP-9 pass, this HIP proposes to stake the liquidity through Wombex Finance, the top yield aggregator built on top of Wombat Finance. The utilization of a yield aggregator will increase the revenue generated for the liquidity staked, which will be directed in full back to the Community Fund. The tokens received will be in the form of WOM and WMX tokens, which will be sold on the open market to generate additional revenue and serve the purpose of the community fund, offsetting costs and aiding in the sustainable growth of the protocol.
+Should HIP-7 and HIP-9 pass, this HIP proposes to stake the liquidity through Wombex Finance, the top yield aggregator built on top of Wombat Finance. The utilization of a yield aggregator will increase the revenue generated for the liquidity staked, which will be directed in full back to the Community Fund. The tokens received will be in the form of WOM and WMX tokens, which will be potentially sold on the open market to generate additional revenue and serve the purpose of the community fund, offsetting costs and aiding in the sustainable growth of the protocol.
 
 ## Specification
 
