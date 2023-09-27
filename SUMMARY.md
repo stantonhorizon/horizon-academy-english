@@ -55,6 +55,7 @@
 * [Trading on Exchange](horizon-exchange/trading-on-exchange/README.md)
   * [Oracles](horizon-exchange/trading-on-exchange/oracles.md)
   * [Exchange Fees](horizon-exchange/trading-on-exchange/exchange-fees.md)
+  * [Dynamic Exchange Fees (Testnet V2)](horizon-exchange/trading-on-exchange/dynamic-exchange-fees-testnet-v2.md)
   * [zAsset Token Addresses](horizon-exchange/trading-on-exchange/zasset-token-addresses.md)
 * [Interfaces](horizon-exchange/interfaces.md)
 * [Exchange FAQ](horizon-exchange/exchange-faq.md)
