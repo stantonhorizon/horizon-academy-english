@@ -48,8 +48,6 @@ Please ask your questions [here](https://t.me/HorizonProtocol).
 **Q: What’s Wombex?**\
 [Wombex](http://wombex.exchange) combines the power of liquidity providers and WOM token holders, supercharging each other and accelerating long-term Wombat growth. For this purpose, Wombex accumulates veWOM and aggregates LPs deposits simultaneously. For WOM holders, Wombex offers the opportunity to earn more on their WOM by staking WOM into wmxWOM (Wombex-owned veWOM).
 
-the top yield aggregator built on top of Wombat Finance.,&#x20;
-
 Wombex ranked #28 based on TVL locked in the Yeild category across all chains and #6 on the BNB Chain, current TVL 9.59M.
 
 
