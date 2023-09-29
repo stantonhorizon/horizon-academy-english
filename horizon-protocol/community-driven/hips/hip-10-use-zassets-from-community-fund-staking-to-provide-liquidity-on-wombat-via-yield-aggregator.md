@@ -4,7 +4,7 @@ description: >-
   zBNB liquidity pools on Wombat Exchange through Magpie or Wombex Finance.
 ---
 
-# HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat  via Yeild Aggregator
+# HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat  via Yield Aggregator
 
 **Type:** Horizon Improvement Proposal \
 **Date:** Sep 29th, 2023\
@@ -55,13 +55,13 @@ Please ask your questions [here](https://t.me/HorizonProtocol).
 
 The platform offers users the opportunity to deposit their Stablecoins, BNB, Liquid BNB, frxETH, ETH, WOM, mWOM tokens in single-sided boosted pools to earn high APR % while it allows Wombat Exchange voters to cost-effectively acquire voting power and earn passive income at the same time through the MGP token.
 
-Magpie ranked #7 based on TVL locked in the Yeild category across all chains and #3 on the BNB Chain, current TVL 60.15M on 4 chains.\
+Magpie ranked #7 based on TVL locked in the Yield category across all chains and #3 on the BNB Chain, current TVL 60.15M on 4 chains.\
 
 
 **Q: What’s Wombex?**\
 [Wombex](http://wombex.exchange) combines the power of liquidity providers and WOM token holders, supercharging each other and accelerating long-term Wombat growth. For this purpose, Wombex accumulates veWOM and aggregates LPs deposits simultaneously. For WOM holders, Wombex offers the opportunity to earn more on their WOM by staking WOM into wmxWOM (Wombex-owned veWOM).
 
-Wombex ranked #28 based on TVL locked in the Yeild category across all chains and #6 on the BNB Chain, current TVL 9.59M.
+Wombex ranked #28 based on TVL locked in the Yield category across all chains and #6 on the BNB Chain, current TVL 9.59M.
 
 
 
