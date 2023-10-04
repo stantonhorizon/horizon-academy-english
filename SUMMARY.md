@@ -33,6 +33,7 @@
   * [Collaterialization and C-Ratio](horizon-genesis/staking-on-horizon-genesis/collaterialization-and-c-ratio.md)
   * [Debt share (Testnet V2)](horizon-genesis/staking-on-horizon-genesis/debt-share-testnet-v2.md)
   * [Liquidation](horizon-genesis/staking-on-horizon-genesis/liquidation.md)
+  * [Liquidation Mechanism (Testnet V2)](horizon-genesis/staking-on-horizon-genesis/liquidation-mechanism-testnet-v2.md)
   * [Risks of Staking](horizon-genesis/staking-on-horizon-genesis/risks-of-staking.md)
   * [C-Ratio Strategies](horizon-genesis/staking-on-horizon-genesis/c-ratio-strategies.md)
   * [Hedge your Portfolio](horizon-genesis/staking-on-horizon-genesis/hedge-your-portfolio.md)
