@@ -10,6 +10,7 @@
   * [Security Audit](horizon-protocol/introduction/security-audit.md)
 * [Synthetic Assets - zAssets](horizon-protocol/synthetic-assets-zassets.md)
 * [Community Driven](horizon-protocol/community-driven/README.md)
+  * [How to Initiating a HIP](horizon-protocol/community-driven/how-to-initiating-a-hip.md)
   * [HIPs](horizon-protocol/community-driven/hips/README.md)
     * [HIP-10: Use zAssets from Community Fund staking to provide liquidity on Wombat  via Yield Aggregator](horizon-protocol/community-driven/hips/hip-10-use-zassets-from-community-fund-staking-to-provide-liquidity-on-wombat-via-yield-aggregator.md)
     * [HIP-9: Redirect HZN from EARN Pools to Wombat Exchange as ‘Bribes’](horizon-protocol/community-driven/hips/hip-9-redirect-hzn-from-earn-pools-to-wombat-exchange-as-bribes.md)
