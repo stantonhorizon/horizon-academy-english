@@ -31,6 +31,7 @@
 * [Introduction](horizon-genesis/introduction.md)
 * [Staking on Horizon Genesis](horizon-genesis/staking-on-horizon-genesis/README.md)
   * [Mint, Burn, and Claim](horizon-genesis/staking-on-horizon-genesis/mint-burn-and-claim.md)
+  * [Earned Fees Update - From Distribution to Burn (Testnet V2)](horizon-genesis/staking-on-horizon-genesis/earned-fees-update-from-distribution-to-burn-testnet-v2.md)
   * [Collaterialization and C-Ratio](horizon-genesis/staking-on-horizon-genesis/collaterialization-and-c-ratio.md)
   * [Debt share (Testnet V2)](horizon-genesis/staking-on-horizon-genesis/debt-share-testnet-v2.md)
   * [Liquidation](horizon-genesis/staking-on-horizon-genesis/liquidation.md)
