@@ -24,6 +24,6 @@ There are two main benefits to this update:
 
 \- All stakers will be able to receive their percentage of the Earned Fees from the Horizon Exchange regardless of whether they are actively claiming every week. Previously, if you did not claim, the missed claims will go back into the pool for next week. With the Earned Fees Update moving from distributing to burning zUSD from the global debt, this means all passive stakers will gain the benefits as well.
 
-\- Makes potential cross-chain rewards fair for all stakers on Horizon Protocol: All stakers will collect their rewards each week, regardless of which chain their staking might be on. This is made possible with the \[\[Debt Share Token]] update.
+\- Makes potential cross-chain rewards fair for all stakers on Horizon Protocol: All stakers will collect their rewards each week, regardless of which chain their staking might be on. This is made possible with the [Debt Share Token](https://academy.horizonprotocol.com/horizon-genesis/staking-on-horizon-genesis/debt-share-testnet-v2) update.
 
 \
