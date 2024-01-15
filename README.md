@@ -14,7 +14,7 @@ To get started, please click head on over to the [Horizon Protocol](horizon-prot
 * [Twitter](https://twitter.com/HorizonProtocol)
 * [Official Telegram Channel](https://t.me/HorizonProtocol)
 * [Official Telegram Announcements Channel](https://t.me/HorizonAnnouncements)
-* [Discord](https://discord.gg/SaDKvkbQF2)
+* [Discord](https://discord.gg/HorizonProtocol)
 * [Reddit](https://www.reddit.com/r/HorizonProtocol/)
 * [CoinGecko](https://www.coingecko.com/en/coins/horizon-protocol)
 * [Coin Market Cap](https://coinmarketcap.com/currencies/horizon-protocol/)
