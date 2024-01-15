@@ -18,17 +18,11 @@ Known as the OG synthetic assets project, Synthetix started in 2018 after pivoti
 
 Learn more about Synthetix: [https://synthetix.io/](https://synthetix.io/)
 
-## Mirror Protocol
-
-Mirror Protocol is a defi derivatives project on the Terra blockchain network for creating and trading synthetic assets known as mAssets, or Mirrored Assets.
-
-Learn more about Mirror Protocol: [https://www.mirror.finance/](https://www.mirror.finance/)
-
 ## dYdX
 
 dYdX is a defi derivatives project on the Ethereum blockchain with a focus on perpetual futures trading.
 
-Perpetual futures, also known as perpetual swaps, are futures contracts without an expiration date.  dYdX provides perpetual futures for a myriad of crypto coins with options for up to 20x leverage. Support for L2 also lowers the cost of trading.
+Perpetual futures, also known as perpetual swaps, are futures contracts without an expiration date. dYdX provides perpetual futures for a myriad of crypto coins with options for up to 20x leverage. Support for L2 also lowers the cost of trading.
 
 Learn more about dydx: [https://dydx.exchange/](https://dydx.exchange/)
 
