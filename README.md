@@ -1,5 +1,9 @@
 # Horizon Academy
 
+{% hint style="info" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 ![](<.gitbook/assets/photo\_2022-02-20 22.48.53.jpeg>)
 
 Horizon Academy is a knowledge base for all things related to Horizon Protocol. Definitions, explanations, tutorials, FAQs, will all be added and linked to Horizon Academy for easy access.
