@@ -1,5 +1,9 @@
 # Risks of Staking
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Staking on Horizon Genesis is not risk free. Below are considerations and strategies to reduce the amount of risk you face.
 
 ## HZN Price Fluctuations and your C-Ratio <a href="#hzn-price-fluctuations-and-your-c-ratio" id="hzn-price-fluctuations-and-your-c-ratio"></a>

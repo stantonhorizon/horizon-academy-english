@@ -4,6 +4,10 @@ description: Instructions on how to stake on Horizon Genesis
 
 # How to Stake on Genesis
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Welcome to an introduction on "How to Stake on Horizon Genesis".
 
 {% embed url="https://youtu.be/9putdPMlhts" %}
@@ -61,7 +65,7 @@ To begin minting, you can either:
 * **Select Amount of zUSD to Mint**\
   The user can type in exactly how much zUSD they want to mint.
 
-## 4. Collect Rewards <a href="#_5-collect-rewards" id="_5-collect-rewards"></a>
+## 4. Collect Rewards <a href="#id-5-collect-rewards" id="id-5-collect-rewards"></a>
 
 {% embed url="https://youtu.be/hvXP52aVbKc" %}
 

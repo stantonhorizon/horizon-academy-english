@@ -1,5 +1,9 @@
 # C-Ratio Strategies
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 With the target C-Ratio and fluctuating prices, there are a variety of approaches to staking HZN based on your risk tolerance. These 3 preset strategies are designed to make it easy to maintain a certain C-Ratio by easily minting or burning zUSD.
 
 ### **Conservative Strategy (Lower Risk)**

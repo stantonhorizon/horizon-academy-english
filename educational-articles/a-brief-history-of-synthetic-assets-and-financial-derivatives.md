@@ -1,5 +1,9 @@
 # A Brief History of Synthetic Assets and Financial Derivatives
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Synthetic assets, or financial derivatives, aren’t a new phenomenon. In fact, as far back as 600 B.C.E in ancient Greece, humans have relied on them extensively for trading, speculation, and hedging.
 
 Put simply, a derivative is any asset that derives its value from a separate underlying asset or basket of assets. A synthetic asset is simply a tokenized derivative which instead of using traditional contracts, leverages the power of the blockchain and the broader crypto ecosystem.

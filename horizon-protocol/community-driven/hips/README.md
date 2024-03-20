@@ -4,6 +4,10 @@ description: Horizon Improvement Proposals
 
 # HIPs
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Welcome to the Horizon Improvement Proposals!
 
 Horizon Protocol aims to become a fully functioning DAO. We strongly believe that Community Governance is the future, therefore, we will be introducing all potential changes to the protocol to the community first in the form of HIPs, or Horizon Improvement Proposals.

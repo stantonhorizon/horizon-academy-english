@@ -4,6 +4,10 @@ description: Authorize Wallets to act on your behalf.
 
 # Account - Authorize
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Authorize Wallets is a new feature that gives another wallet permission to perform actions on behalf of your wallet. This might be valuable if you currently use a Hardware wallet and want to make it easier to process
 
 You can set permissions for what operation the Authorized Wallet has accessed to, including Mint, Burn, Claim, Trade.

@@ -4,6 +4,10 @@ description: Liquidation Mechanism V2
 
 # Liquidation Mechanism (Testnet V2)
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Horizon Protocol is a protocol that requires the maintenance of collateral to make sure that all zAssets are backed by some underlying asset. In the case of Horizon Protocol, that underlying asset is the HZN token. The worst-case scenario is if the underlying asset's value is worth less than zAssets, because that would mean that zAssets are not completely backed anymore.
 
 One of the mechanisms to prevent the worst-case scenario is the liquidation mechanism, which allows wallets that have gone below the safe C-ratio, or collateralization ratio, threshold to be liquidated by a third party to get them back to a safe C-ratio and ensure the protocol’s zAssets are sufficiently collateralized.\

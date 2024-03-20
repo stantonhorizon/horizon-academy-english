@@ -4,6 +4,10 @@ description: How Horizon Protocol generates fees
 
 # Business Model
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 All successful projects need to have a business model where fees are generated to become sustainable for the long term. Another term for this is "Real Yields", where the project's fee generation is from something other than inflation.
 
 Horizon Protocol is designed in a way where the initial inflation via tokenomics will provide a runway for the project to grow. Once mature, the project will rely on fees generated via using the protocol instead of token inflation.

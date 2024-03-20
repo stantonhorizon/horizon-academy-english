@@ -4,9 +4,13 @@ description: Latest update - January 27th, 2023
 
 # Roadmap & Achievements
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/May update.png" alt=""><figcaption><p>Roadmap &#x26; Achievements (2021-2023)</p></figcaption></figure>
 
-## Areas of importance we plan to focus on in 2023: <a href="#08ea" id="08ea"></a>
+## Areas of importance we plan to focus on in 2023: <a href="#id-08ea" id="id-08ea"></a>
 
 * Increase open market liquidity/access points for HZN and zAssets
 * Increase product usability and usage
@@ -23,7 +27,7 @@ On the tech front our objectives can be broken down into 3 sections:
 * Front End
 * Security Audit
 
-### Smart Contracts <a href="#1ecb" id="1ecb"></a>
+### Smart Contracts <a href="#id-1ecb" id="id-1ecb"></a>
 
 Mentioned in our [previous tech updates](https://horizonprotocol.medium.com/tech-update-4bcb8c9f1a2c), a major focus this year is to launch a decentralized perpetual futures exchange where users can trade using leverage while having competitive fees and no slippage. We are very excited for this feature as it will greatly support the Horizon Protocol business model in generating fees for HZN stakers and greatly improve the utility and volume usage of the protocol.
 
@@ -34,7 +38,7 @@ To address the open market liquidity of zAssets challenge, new ways of collatera
 
 The implementation of dynamic trading fees will revolutionize protocol usage and unprecedented partnership opportunities by allowing the removal of the waiting period after each trade and eliminating oracle front running opportunities during periods of high price volatility.
 
-### Other new features that are being investigated and/or developed (not in any particular order): <a href="#31ae" id="31ae"></a>
+### Other new features that are being investigated and/or developed (not in any particular order): <a href="#id-31ae" id="id-31ae"></a>
 
 * Introduce market basket/indices tokens (such as an NFT basket)
 * Allow the correction of the C-Ratio to be automated when claiming each week to allow for a complete stake-and-forget experience
@@ -45,7 +49,7 @@ The implementation of dynamic trading fees will revolutionize protocol usage and
 * Simplifying user debt tracking
 * Introduce tools for users to hedge the debt pool and to reduce their C-Ratio volatility
 
-### Front End: <a href="#735a" id="735a"></a>
+### Front End: <a href="#id-735a" id="id-735a"></a>
 
 To address product usage challenges, a key part is improving the new user onboarding process and user experience. We noticed a limitation to this is occurring due to the fragmentation of all the product and services that users are required to use before they can start trading or staking (i.e. first buying HZN on PancakeSwap, then staking HZN to mint zUSD on Horizon Genesis, then trading zUSD on Horizon Exchange), they must go through 3 different websites with many steps in between to achieve this.
 

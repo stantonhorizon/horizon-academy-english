@@ -1,5 +1,9 @@
 # Dynamic Exchange Fees (Testnet V2)
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 In the Horizon Protocol Exchange, every time a trade between two different assets is completed, an "oracle delay" is used to prevent front-running and arbitrage due to volatility.
 
 Dynamic Exchange fees allow trading to be instantaneous with no more "oracle delay".

@@ -4,6 +4,10 @@ description: How do they work and what can you do with them?
 
 # What are DeFi Derivatives and how are they used
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Decentralized Financial Derivatives, or defi derivatives, are financial derivatives leveraging crypto blockchains. To understand defi derivatives (also referred to as synthetic derivatives and synthetic assets), we need to first understand what traditional financial derivatives are.
 
 ## What are Financial Derivatives?

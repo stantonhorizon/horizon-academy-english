@@ -1,5 +1,9 @@
 # Collaterialization and C-Ratio
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 All zAssets produced on Horizon Protocol must be collateralized by HZN in order for their values to be maintained.
 
 In Horizon Genesis, HZN is staked and zUSD is minted at a Collateralization Ratio (C-Ratio) of 600% ($6 worth of HZN to mint $1 zUSD), and this C-Ratio must be maintained in order to collect weekly rewards from the system.

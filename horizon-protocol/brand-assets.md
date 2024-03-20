@@ -4,6 +4,10 @@ description: Horizon Protocol branding assets, images and logos.
 
 # Brand Assets
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 {% hint style="info" %}
 Please do not edit, change, distort, recolor, or reconfigure the logo.
 {% endhint %}

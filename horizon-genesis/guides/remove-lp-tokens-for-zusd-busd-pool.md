@@ -4,6 +4,10 @@ description: on PancakeSwap.
 
 # Remove LP Tokens for zUSD-BUSD Pool
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 ### Remove LP Tokens
 
 Removing consists of performing the steps 2 and 3 in reverse order.

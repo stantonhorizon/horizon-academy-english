@@ -4,6 +4,10 @@ description: An Introduction to Horizon Exchange
 
 # Introduction
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Horizon Exchange hosts a marketplace of zAssets by utilizing industry-leading oracles to track their price movement.
 
 The exchange allows for simple market trades of typical underlying assets including commodities, stocks, bonds, interest rates, currencies, crypto, and advanced derivatives trading of all kinds of synthetic assets, including forwards, futures, options, and swaps. Derivatives and synthetic assets allow investors to earn large returns from small movements in the underlying asset's price.
@@ -27,8 +31,6 @@ Trading on Horizon Exchange is very easy.
 For most users, the starting point is acquiring zUSD from either Horizon Genesis via staking or trading for it directly on a DEX or CEX.
 
 Once you have zUSD, you can go to Horizon Exchange and purchase the zAsset of your choice.
-
-
 
 ## The Future of Horizon Exchange
 

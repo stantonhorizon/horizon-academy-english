@@ -1,5 +1,9 @@
 # Hedge your Portfolio
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 In Horizon Protocol, your Debt Balance fluctuates as a percentage of the Global Debt Pool. To properly hedge the Global Debt Pool, it is recommended to hold zAssets that mirror its composition.
 
 ### What is Debt Hedging

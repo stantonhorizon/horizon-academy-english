@@ -4,6 +4,10 @@ description: Horizon Protocol Supply and Inflation Policy
 
 # Tokenomics
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Originally published [here](https://horizonprotocol.medium.com/horizon-supply-and-inflation-policy-f0aaa8cc4a3a) as a Medium article.
 
 **Summary:**

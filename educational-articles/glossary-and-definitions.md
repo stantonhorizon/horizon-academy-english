@@ -1,5 +1,9 @@
 # Glossary and Definitions
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 This will be a list of definitions that we will gradually add on to help readers understand the various terms.
 
 ### Synthetic Assets

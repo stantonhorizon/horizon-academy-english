@@ -1,5 +1,9 @@
 # Synthetic Assets - zAssets
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Horizon Protocol bridges the products of traditional financial markets and brings it into the world of decentralized finance (DeFi) in the form of synthetic assets.
 
 Synthetic assets are tokenized derivatives, which are contracts that represent the underlying value of an asset, without requiring actually holding the asset itself.

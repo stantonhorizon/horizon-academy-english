@@ -1,10 +1,12 @@
 # Interfaces
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 ## Horizon Exchange - Home Page
 
 ![Horizon Exchange - Home Page](../.gitbook/assets/Horizon\_Exchange\_UI\_Sneak\_Peek\_-\_Home.jpg)
-
-
 
 ## Trade - Buy
 

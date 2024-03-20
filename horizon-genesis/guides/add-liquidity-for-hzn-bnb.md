@@ -4,6 +4,10 @@ description: on PancakeSwap.
 
 # Add Liquidity for HZN-BNB
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Adding liquidity to HZN-BNB supports the HZN-BNB liquidity on PancakeSwap, allowing users to trade between HZN and BNB on a DEX (decentralized exchange).
 
 The following is a guide on how to add liquidity in the HZN-BNB pool in the Earn tab to earn yield.

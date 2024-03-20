@@ -1,8 +1,12 @@
 # Liquidation
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Liquidation is a critical function to the health of the collateralization of synthetic assets on Horizon Protocol. Liquidation ensures that there will still be sufficient collateral to back synthetic assets in the event of a serious price drop (-90%) in HZN. It creates an incentive for stakers to maintain a healthy C-Ratio as well an incentive for liquidators to liquidate these accounts for a profit. This 2-sided approach ensures that the global network C-Ratio is maintained at a healthy level.
 
-Once a user is flagged for liquidation and they don't restore their C-ratio and clear the flag, they will appear on a list of accounts available to be liquidated (will be viewable on the [network stats page](https://dashboard.horizonprotocol.com/) soon along with the amount of zUSD needed to cover their position back to an 700% C-Ratio). From here, a liquidator with sufficient zUSD can liquidate these accounts and claim back HZN with a 10% bonus.&#x20;
+Once a user is flagged for liquidation and they don't restore their C-ratio and clear the flag, they will appear on a list of accounts available to be liquidated (will be viewable on the [network stats page](https://dashboard.horizonprotocol.com/) soon along with the amount of zUSD needed to cover their position back to an 700% C-Ratio). From here, a liquidator with sufficient zUSD can liquidate these accounts and claim back HZN with a 10% bonus.
 
 ## Sample Liquidation Scenario
 
@@ -21,7 +25,7 @@ _\*Please note that the example below was written when the Target C-Ratio was st
 
 1. John has 400 HZN staked. At HZN value of $1 USD, this is worth $400 USD. When he initially minted at a C-Ratio of 800%, he received $50 zUSD. Because he has not been actively checking due to a price drop of HZN to $0.25 USD, the total value of staked HZN is now $100 USD, his C-Ratio has gone from 800% to 200%, which means he currently has a C-Ratio of 200% while still holding $50 zUSD of debt minted. 200% is the Liquidation C-ratio, which means, John's liquidation flag has been activated.
 2. If John fails to restore his C-Ratio back to 800% within 3 days, his account becomes available to be liquidated. To get back to 800%, without investing more HZN, John needs to lower his debt to $12.5 zUSD, which means $37.5 zUSD needs to be burned by John.
-3. If John fails to restore his C-Ratio back to 800% during the 3 day grace period, the liquidator, Adam, now has the opportunity to liquidate John by helping him get back to 800% C-Ratio. The liquidation calculation is slightly different from the calculation John would need to get back to 800% C-Ratio. To calculate how much zUSD is required to restore John's C-Ratio to 800% via liquidation, this formula is used: \
+3. If John fails to restore his C-Ratio back to 800% during the 3 day grace period, the liquidator, Adam, now has the opportunity to liquidate John by helping him get back to 800% C-Ratio. The liquidation calculation is slightly different from the calculation John would need to get back to 800% C-Ratio. To calculate how much zUSD is required to restore John's C-Ratio to 800% via liquidation, this formula is used:\
    `Z = (t * D - V) / (t - (1 + P)`
 
 ```
@@ -46,15 +50,15 @@ P = liquidation penalty (i.e. 0.1)
 
 5\. Therefore, this results in `$47.826086956521739 USD` worth of HZN going from John's staked HZN into Adam's wallet. At $0.25 USD per HZN, this adds up to `191.3043478261 HZN` of John's going to Adam, leaving `208.6956521739 HZN` still staked with John. The liquidation reduces John's debt by `$43.478260869565217 zUSD`, leaving him with `$6.521739130434783 zUSD` in debt and a C-Ratio of 800%.
 
-In summary, Adam, as the liquidator, can help John get back to 800% C-Ratio by burning his own zUSD. In return for burning is own zUSD, Adam gets rewarded at 110% of what he burned in zUSD in the form of HZN, which comes out of John's HZN stake.&#x20;
+In summary, Adam, as the liquidator, can help John get back to 800% C-Ratio by burning his own zUSD. In return for burning is own zUSD, Adam gets rewarded at 110% of what he burned in zUSD in the form of HZN, which comes out of John's HZN stake.
 
 To summarize further, the liquidator, Adam, basically makes a free 10% profit when liquidating someone by paying out in zUSD and getting that amount + 10% back in HZN.
 
 ## Clearing the Liquidation Flag
 
-If the user restores their C-Ratio back to 700% within the 3-day grace period, the user may then clear their liquidation flag.&#x20;
+If the user restores their C-Ratio back to 700% within the 3-day grace period, the user may then clear their liquidation flag.
 
-**It is very, very important to note that this is a manual function** that requires the user to update the smart contract that they are no longer flagged, otherwise other users will still have the ability to liquidate this user after the 3-day grace period anytime the C-Ratio are below 700%. This smart contract update requires a transaction on the blockchain and the user will need to pay the gas fee.&#x20;
+**It is very, very important to note that this is a manual function** that requires the user to update the smart contract that they are no longer flagged, otherwise other users will still have the ability to liquidate this user after the 3-day grace period anytime the C-Ratio are below 700%. This smart contract update requires a transaction on the blockchain and the user will need to pay the gas fee.
 
 This manual action can only be done at 700% C-ratio or above. It does not enjoy the 1% buffer that is available to Claims.
 
@@ -64,7 +68,7 @@ The Horizon Genesis UI will indicate to the user in regards to this status and i
 
 ## Guide on how to Liquidate
 
-Liquidation is a very important aspect of protecting the protocol. Although there is currently no official interface for this, Horizon Protocol believes it is important for the method to be shared.&#x20;
+Liquidation is a very important aspect of protecting the protocol. Although there is currently no official interface for this, Horizon Protocol believes it is important for the method to be shared.
 
 Below is a step-by-step guide for how to liquidate:
 
@@ -76,7 +80,7 @@ Below is a step-by-step guide for how to liquidate:
 2. **Go to the contracts on BSCScan**\
    Navigate to BSCScanat this web address: [https://bscscan.com/address/0x9EF25320Ce7824F78387a07733B85C1FB6218D13#writeContract](https://bscscan.com/address/0x9EF25320Ce7824F78387a07733B85C1FB6218D13#writeContract). This webpage has the relevant contract that is needs to be implemented for liquidation.
 3. **Connect your wallet to BSCScan**\
-   Look for this link: “Connect to Web3”. \
+   Look for this link: “Connect to Web3”.\
    ![](../../.gitbook/assets/liquidation\_connect\_to\_web3.png)\
    Once connected, should say: Connected - Web3 \[wallet address], with a green dot. (Double check in your wallet that it says "Connected" as well.)
 4. **Find the Liquidation Contract**\

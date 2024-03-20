@@ -4,6 +4,10 @@ description: Use Chainlink Automation to Auto-Claim
 
 # Setting Up Chainlink Automation
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Welcome to the Guide for using Chainlink Automation to auto-claim your weekly staking rewards on Horizon Genesis.
 
 The following guide will take you through the process of setting Chainlink Automation up (screenshots from 2022.09.18).

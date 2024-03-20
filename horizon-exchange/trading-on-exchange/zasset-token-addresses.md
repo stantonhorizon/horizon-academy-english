@@ -1,6 +1,10 @@
 # zAsset Token Addresses
 
-You can add the available synthetic assets on Horizon Exchange to your wallet if you wish to view them in there.&#x20;
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
+You can add the available synthetic assets on Horizon Exchange to your wallet if you wish to view them in there.
 
 They will still show up on Horizon Exchange even if you don’t add them.
 

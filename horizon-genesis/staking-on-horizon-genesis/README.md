@@ -1,5 +1,9 @@
 # Staking on Horizon Genesis
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 To incentivize liquidity, Horizon Genesis provides a staking mechanism that earns weekly rewards. Dividends via the token’s inflationary policy and fees levied from the Horizon Exchange are paid out to all users who have staked HZN, Horizon Protocol’s native token.
 
 When a user stakes HZN to mint on Horizon Genesis, the stake is pooled with all other staked HZN and that pool collateralizes all zAssets on the entire Horizon Protocol network. As an investor, you can mint zUSD, which means you are incurring an interest-free debt to the network. The debt must be adequately collateralized and your C-Ratio always maintained in order to be eligible for rewards. For savvy investors, this debt can be leveraged to earn yield through staking as an LP or trading on the Horizon Exchange.

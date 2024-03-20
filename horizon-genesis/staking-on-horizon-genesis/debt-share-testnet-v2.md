@@ -1,5 +1,9 @@
 # Debt share (Testnet V2)
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 In Horizon Protocol, to manage how much debt each staker holds as the debt changes due to the fluctuation of each zAsset, a debt registry is kept for each staker. The registry keeps track of every Mint and Burn action by every staker and rolls it up into a single calculation to determine the debt percentage of each staker.
 
 This works for now, but there are limitations to this design as it will not work if Horizon Protocol ever decides to expand beyond one chain, since the debt registry is only recording the actions from one chain and not compatible with a multi-chain debt pool.

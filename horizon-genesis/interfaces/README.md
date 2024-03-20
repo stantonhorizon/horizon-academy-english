@@ -4,6 +4,10 @@ description: A primer on Horizon Genesis's interface.
 
 # Interfaces
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 {% embed url="https://youtu.be/Etg3NLPR-Sc" %}
 
 ## Wallet Status

@@ -4,6 +4,10 @@ description: A Guide to Initiating a HIP for Community-Driven Governance
 
 # How to Initiating a HIP
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Horizon Protocol's primary aim is to provide the community with a wide array of secure, trustless, and globally accessible tools for trading and investing in synthetic assets that represent the real-world economy. This vision can only become a reality with the unwavering support of our community. Our commitment is to collectively build towards this vision alongside the entire community. Horizon DAO was established with the specific purpose of uniting, motivating, and actively involving the community as a cohesive whole.&#x20;
 
 \

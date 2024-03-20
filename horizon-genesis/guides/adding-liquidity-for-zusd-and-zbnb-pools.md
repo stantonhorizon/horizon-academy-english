@@ -4,6 +4,10 @@ description: on Wombat Exchange
 
 # Adding Liquidity for zUSD and zBNB pools
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Adding liquidity to the zUSD-USDC and zBNB-BNB pairs on Wombat Exchange supports a decentralized on-off ramp to the Horizon Protocol ecosystem.\
 &#x20;
 
@@ -55,7 +59,7 @@ Then click the POOL tab on the panel to visit the pool page.
 \
 7\. A pop-up message with the details of your transaction will appear requesting for you to approve it in your wallet.\
 \
-![](../../.gitbook/assets/image.png)\
+![](<../../.gitbook/assets/image (1).png>)\
 &#x20;\
 8\. A confirmation message will show once the transaction was successfully submitted\
 \

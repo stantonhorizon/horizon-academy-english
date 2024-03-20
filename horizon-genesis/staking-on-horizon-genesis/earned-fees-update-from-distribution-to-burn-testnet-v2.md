@@ -1,5 +1,9 @@
 # Earned Fees Update - From Distribution to Burn (Testnet V2)
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Horizon Protocol shares with stakers all the revenue generated through trade fees in the Horizon Protocol Exchange. Currently, the revenue is shared as an "Earned Fee" in the form of zUSD every week. Every staker gets a percentage of the total revenue earned during a week. The "Earned Fee" gets claimed along with the weekly HZN rewards. The percentage is determined by the percentage of debt they have in the global debt market.
 
 The Earned Fees Update changes from distributing the "Earned Fee" as rewards to instead, burning it, which has the same result of lowering the amount of debt owed to all stakers while opening up the possibility for stakers to receive the rewards passively and for fair "Earned Fee" sharing across multiple chains.

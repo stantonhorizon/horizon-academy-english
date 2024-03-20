@@ -1,5 +1,9 @@
 # Earn: Liquidity Pools
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 **Horizon Genesis also provides additional opportunities to Earn through liquidity provision and the staking of LP tokens.**
 
 All rewards are supplied by Horizon Protocol's monetary policy outlined [here](../../horizon-protocol/introduction/tokenomics.md) with exception to emissions from the initial token distribution. All rewards are subject to change based on project/market progression and community governance.

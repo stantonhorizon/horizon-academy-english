@@ -1,5 +1,9 @@
 # Mint, Burn, and Claim
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Staking on Horizon Genesis is very simple and consists of 3 actions: Mint, Burn, and Claim.
 
 ## Mint

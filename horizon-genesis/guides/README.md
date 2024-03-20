@@ -1,5 +1,9 @@
 # Guides
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Welcome to the Guides section, where we will be creating guides on how to use and interact with Horizon Stake (Genesis).
 
 Check out the following Guides:

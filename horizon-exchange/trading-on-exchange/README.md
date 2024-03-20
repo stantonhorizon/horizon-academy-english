@@ -1,8 +1,12 @@
 # Trading on Exchange
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Welcome to Horizon Exchange! To get started, go to [Horizon Exchange](https://exchange.horizonprotocol.com), connect your wallet, and let’s get started!
 
-## **Markets** <a href="#2cb6" id="2cb6"></a>
+## **Markets** <a href="#id-2cb6" id="id-2cb6"></a>
 
 The ‘Markets’ tab is an overview of the synthetic asset (zAsset) market available on Horizon Exchange. You can see market highlights: top gainer (24h), top loser (24h), highest volume (24h), and the largest zAsset. And, check out different zAssets in various categories.
 
@@ -10,7 +14,7 @@ Select the market you want to trade in!
 
 ![Picture 1: Select the market you want to trade in.](../../.gitbook/assets/Horizon\_Exchange-Markets.png)
 
-## **Trade** <a href="#32e2" id="32e2"></a>
+## **Trade** <a href="#id-32e2" id="id-32e2"></a>
 
 The ‘Trade’ tab is where you can buy and sell zAssets! Try selecting the zAsset you wish to trade, we’ll use zDOGE for this guide. You can use the TradingView chart to help you make a decision.
 

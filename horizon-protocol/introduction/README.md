@@ -1,5 +1,9 @@
 # Introduction
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Welcome to Horizon Protocol, a decentralized finance project on the BNB Chain (previously known as the Binance Smart Chain) with the mission of creating a borderless financial market for synthetic assets.
 
 {% embed url="https://www.youtube.com/watch?v=YfhUCtrzpGk" %}

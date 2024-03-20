@@ -1,5 +1,9 @@
 # Oracles
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Oracles are data sources or data feeds that are designed to be fed into a smart contract. Oracles are typically third-party services that allows a blockchain to connect with and receive external data from outside of their ecosystem.
 
 Most common use case for oracles involves the access of real-time data, most often in the form of real-time price feeds of different assets.
@@ -14,10 +18,10 @@ Oracles are a critical part to Horizon Protocol and are necessary because oracle
 
 ![](../../.gitbook/assets/Oracle\_Horizon\_x\_Chainlink)
 
-Different oracle providers such as [@chainlink](https://twitter.com/chainlink) and [@Phoenix\_Chain](https://twitter.com/Phoenix\_Chain) represent unlimited access to any type of asset and enforce the security and safety of the price feeds to:&#x20;
+Different oracle providers such as [@chainlink](https://twitter.com/chainlink) and [@Phoenix\_Chain](https://twitter.com/Phoenix\_Chain) represent unlimited access to any type of asset and enforce the security and safety of the price feeds to:
 
-* crypto&#x20;
-* stocks&#x20;
+* crypto
+* stocks
 * indices
 * commodities
 * NFTs

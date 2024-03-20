@@ -4,6 +4,10 @@ description: Tracking your escrowed HZN.
 
 # Account - Escrow
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 In Account > Escrow, you will find the Escrow tab.
 
 The Escrow Tab tracks your escrowed HZN, which is awarded to a user who is Staking.

@@ -4,6 +4,10 @@ description: Track all staking-related actions.
 
 # Account - History
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Account History keeps track of all previous staking-related transactions.
 
 This includes all "Mint", "Burn", and "Claim" actions.

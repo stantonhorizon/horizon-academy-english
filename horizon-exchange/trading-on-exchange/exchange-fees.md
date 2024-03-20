@@ -1,5 +1,9 @@
 # Exchange Fees
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 When trading on the Horizon Exchange, each trade is charged an exchange fee. The exchange fee is dependent on the zAsset (so each zAsset will have a slightly different fee, designated by the oracle) because every zAsset has its own oracle price feed, and therefore a corresponding heartbeat and price variance threshold.
 
 Learn more about oracle heart beat and variance by going to the [Oracles](oracles.md#oracle-refresh-rate) page.
@@ -22,7 +26,7 @@ The Fee Reclamation & Rebates system on Horizon Protocol enables a 3 minute orac
 
 If a trade was affected by the oracle latency, that will mean the price is wrong and the trader will either owe zAssets (known as reclamation) or is owed zAssets (known as a rebate).
 
-If there is a reclamation or rebate, it gets remembered on chain and activated the next time the trader exchanges, transfers, or burns that same zAsset. At that time, Horizon Exchange will automatically reclaim the zAssets the trader owes (reclamation) or it will payout the zAssets owed to the user (rebate).&#x20;
+If there is a reclamation or rebate, it gets remembered on chain and activated the next time the trader exchanges, transfers, or burns that same zAsset. At that time, Horizon Exchange will automatically reclaim the zAssets the trader owes (reclamation) or it will payout the zAssets owed to the user (rebate).
 
 The reclamation and rebate of the fee is taken care of by the fee pool, where if a trader owes a reclamation, it is paid into the fee pool and if a trader is owed a rebate, it is paid from the fee pool.
 

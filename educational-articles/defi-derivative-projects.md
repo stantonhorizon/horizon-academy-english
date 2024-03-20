@@ -1,5 +1,9 @@
 # Defi Derivative Projects
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 There are a couple defi derivative projects in the cryptosphere. Below, we share a couple of the ones we know of.
 
 ## Horizon Protocol

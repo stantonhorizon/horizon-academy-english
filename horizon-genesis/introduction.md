@@ -4,6 +4,10 @@ description: An Introduction to Horizon Genesis
 
 # Introduction
 
+{% hint style="danger" %}
+This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
+{% endhint %}
+
 Horizon Genesis is the backbone for all the synthetic assets in the Horizon Protocol ecosystem.
 
 Horizon Genesis maintains the collateralization ratio by offering staking mechanisms for the Horizon Protocol network to stabilize the ecosystem and create synthetic assets. Horizon Genesis is used to create Horizon Protocol's first synthetic asset, the zUSD, which is minted with HZN as collateral.
