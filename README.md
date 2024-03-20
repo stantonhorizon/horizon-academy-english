@@ -1,6 +1,6 @@
 # Horizon Academy
 
-{% hint style="info" %}
+{% hint style="warning" %}
 This version of Horizon Academy has been deprecated! To find the latest version, please visit: [English V2](https://academy.horizonprotocol.com/)
 {% endhint %}
 
